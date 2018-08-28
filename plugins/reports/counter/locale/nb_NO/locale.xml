@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.reports.counter.description"><![CDATA[Programtillegget COUNTER gjør det mulig å rapportere aktivitet i tidsskriftet ved bruk av <a href="http://www.projectcounter.org">COUNTER standarden</a>. Disse rapportene gjør ikke alene tidsskriftet kompatibelt med COUNTER. For å tilby COUNTER-kompatibilitet, se gjennom  kravene på nettstedet til Project COUNTER.]]></message>
 	<message key="plugins.reports.counter">COUNTER-rapporter</message>
 	<message key="plugins.reports.counter.release">COUNTER-lansering</message>

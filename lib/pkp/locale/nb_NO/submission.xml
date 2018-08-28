@@ -12,7 +12,7 @@
   *
   -->
 
-<locale name="nb_NO" full_name = "Norwegian">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="submission.abstractViews">Antall visninger</message>
 	<message key="submission.accepted">Akseptert</message>
 	<message key="submission.acknowledge">Bekreft</message>
@@ -271,10 +271,6 @@
 	<message key="log.review.reviewerAssigned">{$reviewerName} er oppnevnt som fagfelle av manuskriptet {$submissionId} for vurderingsrunden {$round}.</message>
 	<message key="submission.reviewForm">Vurderingsskjema</message>
 	<message key="submission.reviewFormResponse">Skjema for respons til fagfellevurdering</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="author.submit.userGroupRequired">Du har ikke en rolle (f.eks. forfatter) som gjør at du kan sende inn nytt materiale. Sjekk kontoen din. Det kan hende du kan legge til en passende rolle om du endrer profilen din.</message>
 	<message key="author.submission.roundStatus.reviewsReady">Nye fagfellevurderinger er sendt inn. De vurderes av redaktøren.</message>
 	<message key="submission.confirm.message">Innleveringen er lastet opp og er klar til innsending. Du kan gå tilbake for å sjekke og justere innholdet før du fortsetter. Klikk «Fullfør innlevering» når du er klar</message>
@@ -309,7 +305,6 @@
 	<message key="metadata.property.displayName.access-date">Tilgangsdato</message>
 	<message key="metadata.property.validationMessage.access-date">Skriv inn en gyldig tilgangsdato. Bruk formatet: ÅÅÅÅ-MM-DD.</message>
 	<message key="metadata.property.validationMessage.season">Skriv inn en gyldig sesongsidentifikator</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="metadata.property.displayName.series">Serie</message>
 	<message key="metadata.property.validationMessage.series">Skriv inn en gyldig serie</message>
 	<message key="metadata.property.displayName.supplement">Tillegg</message>
@@ -406,7 +401,6 @@
 	<message key="submission.stageParticipants.notify">Gi beskjed til</message>
 	<message key="submission.event.participantAdded">{$name} ble lagt til innleveringen som {$userGroupName}.</message>
 	<message key="submission.citations.filter.invalidMetadata">Det skjedde en feil i {$filterName}: Et av dataelementene returnert fra datakilden (f.eks. en nettjeneste) passet ikke til de interne metadata-formatene. Derfor ble resultatene fra datakilen avvist. Rapporter gjerne programfeilen.</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="submission.event.fileRevised">Den reviderte filen «{$name}» (fil ID {$fileId}-{$revision}) ble lastet opp.</message>
 	<message key="submission.event.subjectPrefix">En e-post ble sendt:</message>
 	<message key="submission.event.viewEmail">Se e-post</message>
@@ -424,7 +418,6 @@
 	<message key="submission.submit.finishSubmission">Fullfør innlevering</message>
 	<message key="submission.submit.selectFile">Velg fil</message>
 	<message key="submission.submit.fileInformation">Informasjon om filen</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="submission.submit.fileAdded">Fil lagt til</message>
 	<message key="submission.submit.includeInBrowse">Inkluder bidragsyter i søkelister?</message>
 	<message key="submission.submit.newFile">Legg til en fil til</message>
@@ -440,7 +433,6 @@
 	<message key="submission.supportingAgencies">Sponsorer</message>
 	<message key="submission.currentAgencies">Nåværende sponsorer</message>
 	<message key="submission.indexingInformation">Indekseringsinformasjon</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="submission.type.tip"><![CDATA[Denne typen innlevering er vanligvis av typen bilde, tekst eller andre multimediatyper, f.eks. programvare og interaktive media. Velg en av de mest relevante for din innlevering. Du finner eksempler her: <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type</a>]]></message>
 	<message key="submission.createRemote">Lag eksternt</message>
 	<message key="submission.artworkFileDetails">Detaljer: Fil med illustrasjoner</message>
@@ -592,15 +584,12 @@
 	<message key="submission.citations.filter.webserviceError">{$filterName} sitt forsøk å bruk av nettjenesten har returnet en feilmelding med følgende URL: {$webserviceUrl}. Det kan være at nettjenesten er midlertidig utilgjengelig. Du vil kunne jobbe med de gjenværende tjenestene og lagre treffene dine. Du kan også prøve igjen senere. Dersom feilen vedvarer, kan du be redaksjonlederen om å deaktivere tjenesten og å melde en programvarefeil.</message>
 	<message key="submission.citations.filter.webserviceResultTransformationError">Det oppsto en feil i {$filterName}: Omgjøringen av XML-resultater (f.eks. fra en nettjeneste) til feltbasert metadata feilet. Grunnen er trolig at nettjenesten returnerte ugyldige eller inkomplette data. Rapporter dette som en programfeil.</message>
 	<message key="submission.comments.addReviews">Legg fagfellevurderingene til e-post</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="submission.license.cc.by-nc-nd4">CC Attribution-NonCommercial-NoDerivatives 4.0</message>
 	<message key="submission.license.cc.by-nc4">CC Attribution-NonCommercial 4.0</message>
 	<message key="submission.license.cc.by-nc-sa4">CC Attribution-NonCommercial-ShareAlike 4.0</message>
 	<message key="submission.license.cc.by-nd4">CC Attribution-NoDerivatives 4.0</message>
 	<message key="submission.license.cc.by4">CC Attribution 4.0</message>
 	<message key="submission.license.cc.by-sa4">CC Attribution-ShareAlike 4.0</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="submission.authorBiography">Forfatterbiografi</message>
 	<message key="submission.authorWithAffiliation">{$name}, {$affiliation}</message>
 	<message key="submission.event.participantRemoved">{$name} ({$username}) er fjernet som {$userGroupName}.</message>
@@ -652,15 +641,4 @@
 	<message key="submission.review.status.received">Denne fagfellen har innlevert sin fagfellevurdering</message>
 	<message key="submission.review.status.complete">Denne fagfellevurderingen er fullført</message>
 	<message key="submission.review.status.thanked">Denne fagfellevurderingen er ferdigstilt og fagfellen har blitt takket for bidraget</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 </locale>

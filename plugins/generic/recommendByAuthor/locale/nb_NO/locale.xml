@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.generic.recommendByAuthor.displayName">Anbefal artikler av forfatter</message>
 	<message key="plugins.generic.recommendByAuthor.description">Dette programtillegget lister opp artikler av den samme forfatteren på siden med artikkelsammendraget</message>
 	<message key="plugins.generic.recommendByAuthor.heading">De mest leste artiklene av samme forfatter(e)</message>

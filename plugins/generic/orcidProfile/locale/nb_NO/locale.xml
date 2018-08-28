@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.generic.orcidProfile.displayName">ORCID-profil</message>
 	<message key="plugins.generic.orcidProfile.description">Dette programtillegget gjør det mulig å importere brukerprofilinformasjon fra ORCID</message>
 	<message key="plugins.generic.orcidProfile.instructions">Du kan fylle ut dette skjemaet med informasjon fra en ORCID-profil. Skriv inn e-postadressen eller identiteten (iD) knyttet til ORCID-profilen. Klikk så «Send inn».</message>

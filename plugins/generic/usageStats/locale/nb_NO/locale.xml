@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.generic.usageStats.settings.logging">Alternativer for loggføring av tilgang</message>
 	<message key="plugins.generic.usageStats.settings.createLogFiles">Lag loggfiler</message>
 	<message key="plugins.generic.usageStats.settings.createLogFiles.description">Aktiverer du dette alternative vil programtillegget opprette loggfiler i mappen. Disse filene bør brukes for å hente ut data over brukerstatistikk. Om du ikke ønsker å opprette filer for loggføring av tilganger, kan du slå av dette alternativet og bruke filer med loggføringen av tilgang på din egen server.</message>

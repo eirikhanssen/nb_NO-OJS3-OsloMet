@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.generic.tinymce.name">TinyMCE</message>
 	<message key="plugins.generic.tinymce.description"><![CDATA[Dette programtillegget gjør at du får se på skjermen din hvordan innholdet vil se ut for leserne, ved hjelp av innholdsredigereren  <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>]]></message>
 	<message key="plugins.generic.tinymce.settings">Innstillinger</message>

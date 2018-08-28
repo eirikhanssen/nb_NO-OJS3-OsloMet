@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="editor.submissionLibrary">Innleveringsbibliotek</message>
 	<message key="editor.review.notInitiated">Fagfelleurderingen har ikke startet</message>
 	<message key="editor.submission.copyediting.personalMessageToUser">Melding til bruker</message>
@@ -128,11 +128,4 @@
 	<message key="editor.submissionReview.sendEmail.editors">Send en beskjed via e-post til redaktøren(e): {$editorNames}</message>
 	<message key="editor.review.newReviewRound">Be om ny runde fagfellevurdering</message>
 	<message key="editor.review.reviewsAdded">Fagfellevurdering lagt til beskjed</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 </locale>

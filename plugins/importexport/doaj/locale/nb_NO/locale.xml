@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.importexport.doaj.displayName">DOAJ</message>
 	<message key="plugins.importexport.doaj.description">Dette programtillegget eksporterer tidsskriftet til DOAJ (Directory of Open Access Journals)</message>
 	<message key="plugins.importexport.doaj.export.contact">Kontakt DOAJ for å inkludere tidsskriftet ditt i systemet</message>

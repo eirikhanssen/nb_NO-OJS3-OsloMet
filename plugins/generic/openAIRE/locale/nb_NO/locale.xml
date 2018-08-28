@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.generic.openAIRE.displayName">OpenAIRE</message>
 	<message key="plugins.generic.openAIRE.description">Programtillegget OpenAIRE legger til prosjekt-id-elementet til artikkelens metadata og utvider OAI-PMH grensesnittet etter OpenAIRE Guidelines 1.1, noe som gjør OJS tidsskrift OpenAIRE-kompatible</message>
 	<message key="plugins.generic.openAIRE.projectID">OpenAIRE prosjekt-id</message>

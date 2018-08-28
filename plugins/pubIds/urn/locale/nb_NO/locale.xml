@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.pubIds.urn.displayName">URN</message>
 	<message key="plugins.pubIds.urn.description">Dette programtillegget oppretter et «uniformt ressursnavn» (Uniform Resource Name) til utgavene, artiklene og oppsettene i OJS.</message>
 	<message key="plugins.pubIds.urn.manager.settings.description">Konfigurer programtillegget for URN så du kan administrere og bruke URN i OJS.</message>

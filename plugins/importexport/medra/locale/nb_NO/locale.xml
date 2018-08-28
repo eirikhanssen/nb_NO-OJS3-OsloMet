@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.importexport.medra.displayName">mEDRA Export/Registration</message>
 	<message key="plugins.importexport.medra.description">Dette programtillegget eksporterer metadata om utgave, artikkel og oppsett i Onix for DOI-formatet (O4DOI) og registrerer DOI-er med mEDRA registreringstjenesten</message>
 	<message key="plugins.importexport.medra.intro"><![CDATA[Hvis du vil registrere DOI-er med mEDRA, følg instruksene på <a href="http://www.medra.org/en/guide.htm" target="_blank">mEDRAs hjemmeside</a> for å motta brukernavn og passord. Dersom du ikke har ditt eget brukernavn og passord, vil du likevel kunne eksportere data til mEDRAs XML-format (Onix for DOI), men du kan ikke registrere DOI-ene dine med mEDRA i OJS.  Merk at passordet vil bli lagret som ren tekst (ikke kryptert), pga. betingelsene til mEDRAs registreringstjeneste.]]></message>

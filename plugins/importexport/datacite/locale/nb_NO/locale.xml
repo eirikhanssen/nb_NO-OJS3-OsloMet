@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.importexport.datacite.displayName">DataCite</message>
 	<message key="plugins.importexport.datacite.description">Dette programtillegget eksporterer eller registrerer en utgave, artikkel, oppsett og metadata fra tilleggsfiler i DataCite-formatet</message>
 	<message key="plugins.importexport.datacite.settings.description">Konfigurer programtillegget for eksport i DataCite før du bruker det for første gang</message>

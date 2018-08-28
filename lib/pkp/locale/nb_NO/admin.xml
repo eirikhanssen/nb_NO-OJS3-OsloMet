@@ -12,7 +12,7 @@
   *
   -->
 
-<locale name="nb_NO" full_name = "Norwegian">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="admin.adminFunctions">Administrative funksjoner</message>
 	<message key="admin.auth.confirmDelete">Er du sikker på at du vil slette valideringskilden?</message>
 	<message key="admin.auth.create">Opprett valideringskilde</message>
@@ -124,9 +124,5 @@ Bruk: (behandle alle filer i en mappe): {$scriptName} path/to/apache/directory</
 	<message key="admin.scheduledTask.subscriptionExpiryReminder">Påminnelse om at abonnementet løper ut</message>
 	<message key="admin.settings.defaultMetricDescription">Installeringen din er konfigurert til å registrere mer enn ett mål på bruk. Bruksstatistikken vil bli vist i flere sammenhenger. I noen tilfeller vil ett sett med bruksdata bli brukt, for eksempel til å vise en ordnet liste over de mest brukte artiklene eller til å rangere søkeresultater. Velg ett av de konfigurerte målene som standard.</message>
 	<message key="admin.scheduledTask.clearLogs">Tøm loggen over utførte oppgaver</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="admin.contexts.confirmDelete"><![CDATA[Er du sikker på at du vil slette <i>{$contextName}<i> og alt innholdet i den? Slettingen er permanent.]]></message>
 </locale>

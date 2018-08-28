@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.metadata.nlm30.description">Dette programtillegget bidrar til NLM 3.0 skjema og applikasjonadaptere</message>
 	<message key="plugins.metadata.nlm30.citationAdapter.displayName">NLM 3.0 referanseadapter</message>
 	<message key="plugins.metadata.nlm30.citationAdapter.description">Henter/legger metadata ut fra/inn i referanser</message>

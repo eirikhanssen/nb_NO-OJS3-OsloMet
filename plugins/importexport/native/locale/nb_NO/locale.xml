@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.importexport.native.displayName">Lokal XML</message>
 	<message key="plugins.importexport.native.description">Dette programtillegget importerer og eksporterer artikler og utgaver i OJS' lokale XML-format</message>
 	<message key="plugins.importexport.native.import">Importer</message>

@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.importexport.quickSubmit.displayName">QuickSubmit</message>
 	<message key="plugins.importexport.quickSubmit.description">Programtillegg for ett-trinns innlevering</message>
 	<message key="plugins.importexport.quickSubmit.descriptionLong">Ved å bruke dette programtillegget, kan du legge til en fullstendig innlevering enten til produksjonsstadiet eller direkte til en utgave.</message>

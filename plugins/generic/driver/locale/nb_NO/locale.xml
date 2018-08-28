@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.generic.driver.displayName">DRIVER</message>
 	<message key="plugins.generic.driver.description">Programtillegget DRIVER utvider OAI-PMH-grensesnittet etter DRIVER Guidelines 2.0, noe som gjør OJS-tidsskrift DRIVER-kompatible</message>
 </locale>

@@ -12,7 +12,7 @@
   *
   -->
 
-<locale name="nb_NO" full_name = "Norwegian">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="author.submit">Ny innlevering</message>
 	<message key="author.track">Aktive innleveringer</message>
 	<message key="author.submit.submitArticle">Send inn en artikkel</message>
@@ -125,6 +125,5 @@
 	<message key="author.submit.submissionLocaleDescription">Dette tidsskriftet tillater innleveringer på flere språk. Velg språk i rullegardinmenyen over.</message>
 	<message key="author.submit.form.localeRequired">Velg språk</message>
 	<message key="author.submit.nextSteps">Neste steg</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="submission.submit.cancelSubmission">Du kan fullføre denne innleveringen ved en senere anledning om du velger «Aktive innleveringer» fra forfattersiden.</message>
 </locale>

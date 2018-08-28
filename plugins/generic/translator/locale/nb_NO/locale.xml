@@ -11,7 +11,7 @@
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="plugins.generic.translator.name">Oversettelse</message>
 	<message key="plugins.generic.translator.description">Dette programtillegget åpner for nettbasert vedlikehold av oversettelsesfiler</message>
 	<message key="plugins.generic.translator.longdescription">Dette området åpner for at nettstedsadministratoren kan bygge, modifisere og sjekke oversettelser. Dette gjelder hele nettstedet og bør ikke brukes til å tilpasse ett enkelt tidsskrift/forlag. Dersom du retter eller gjør en oversettelse, vurder om du kan sende det inn til The Public Knowledge Network så det kan distribueres ved fremtidige lanseringer.</message>

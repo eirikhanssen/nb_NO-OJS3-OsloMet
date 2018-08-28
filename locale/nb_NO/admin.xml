@@ -12,7 +12,7 @@
   *
   -->
 
-<locale name="nb_NO" full_name = "Norwegian">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="admin.hostedJournals">Nettstedets tidsskrift</message>
 	<message key="admin.settings.journalRedirect">Omdirigering</message>
 	<message key="admin.settings.journalRedirectInstructions">Henvendelser til hovednettstedet vil bli omdirigert til dette tidsskriftet. Dette er nyttig  for eksempel hvis nettstedet bare er vert for ett tidsskrift.</message>
@@ -83,8 +83,6 @@
 	<message key="admin.scheduledTask.openAccessNotification">Melding om Open Access</message>
 	<message key="admin.scheduledTask.reviewReminder">Påminnelse om fagfellevurdering</message>
 	<message key="admin.presses.createInstructions">Du vil bli automatisk satt opp som redaksjonslederen av dette tidsskriftet. Etter at du har opprettet et nytt tidsskrift, vil du bli omdirigert til innstillingsveiviseren for å fullføre det første leddet i å starte opp et tidsskrift.</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="admin.languages.confirmDisable">Er du sikker på at du vil skru av denne språkpakken? Dette kan gå ut over tidsskrifter som bruker den.</message>
 	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Det er for øyeblikket ikke mulig å laste ned språkpakker fra serveren til Public Knowledge Project fordi:</p>
 	<ul>

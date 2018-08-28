@@ -12,7 +12,7 @@
   *
   -->
 
-<locale name="nb_NO" full_name = "Norwegian">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="manager.announcements">Oppslagstavle</message>
 	<message key="manager.announcements.confirmDelete">Er du sikker på at du vil slette oppslaget for alltid?</message>
 	<message key="manager.announcements.create">Nytt oppslag</message>
@@ -246,17 +246,6 @@
 	<message key="manager.reviewForms.noneCreated">Ingen fagfellevurderingsskjema er opprettet</message>
 	<message key="manager.reviewForms.preview">Forhåndsvis skjema</message>
 	<message key="manager.reviewForms.title">Tittel</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.reviewFormElements.viewable">Kan ses (av forfatterne)</message>
 	<message key="manager.website.information">Informasjon</message>
 	<message key="manager.website.appearance">Design</message>
@@ -273,7 +262,6 @@
 	<message key="manager.language.submissions">Innleveringer</message>
 	<message key="manager.language.forms">Skjema</message>
 	<message key="manager.language.reloadLocalizedDefaultSettings">Last inn standarder på nytt</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.reviewForms.noneUsed">Ingen fagfellevurderingsskjema har blitt brukt</message>
 	<message key="manager.reviewForms.reviewFormData">Data fra vurderingsskjema</message>
 	<message key="manager.reviewFormElements.included">Inkludert i beskjed til forfatter</message>
@@ -283,9 +271,7 @@
 	<message key="manager.setup.licenseURLDescription">URL til en nettside som beskriver lisensen, dersom det er tilgjengelig</message>
 	<message key="manager.setup.metadata.submission">Innleveringsskjema</message>
 	<message key="plugins.importexport.common.validationErrors">Valideringsfeil:</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="plugins.categories.pubIds">Offentlig indentifikator</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="plugins.categories.pubIds.description">Disse programtilleggene støtter en offentlig indentifikator</message>
 	<message key="manager.plugins.copyError">Programtilleggene ble ikke riktig kopiert. Det kan være problemer med rettighetene. Pass på at nettserveren kan skrive til mappen over programtillegg (inkludert undermapper), men ikke glem å sikre det igjen etterpå.</message>
 	<message key="manager.plugins.delete">Slett programtillegg</message>
@@ -293,7 +279,6 @@
 	<message key="manager.plugins.upgradeConfirm">Er du sikker på at du vil oppdatere programtillegget?</message>
 	<message key="grid.action.installPlugin">Installer eller oppdater programtillegget</message>
 	<message key="manager.plugins.deleteConfirm">Er du sikker på at du vil slette programtillegget fra systemet?</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.userSearch.searchByName">Søk opp bruker etter navn</message>
 	<message key="manager.reviewerSearch.change">Endre</message>
 	<message key="manager.reviewerSearch.doneAmountToggle">Skru på/av filteret for fullførte fagfellevurderinger</message>
@@ -301,12 +286,10 @@
 	<message key="manager.reviewerSearch.lastAmountToggle">Skru av/på filteret for antall dager siden siste fagfellevurdering</message>
 	<message key="manager.reviewerSearch.activeAmountToggle">Skru av/på filteret for pågående fagfellevurderinger</message>
 	<message key="manager.reviewerSearch.interests">Faglige interresser</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.deleteDescription">Du sletter programtillegget fra serverens filsystem om du klikker «Slett»</message>
 	<message key="manager.plugins.deleteError">Programtillegget «{$pluginName}» kunne ikke slettes fra filsystemet. Det kan være et problem med rettighetene. Pass på at nettserveren kan skrive til mappen over programtillegg (inkludert undermapper), men ikke glem å sikre det igjen etterpå.</message>
 	<message key="manager.plugins.deleteSuccess">Programtillegget «{$pluginName}» ble slettet</message>
 	<message key="manager.plugins.description">Denne siden lar redaksjonslederen gjennomgå og eventuelt konfigurere programtilleggene som er installert. Programtillegg er delt inn i kategorier etter funksjon. Kategoriene er listet under. I hver kategori er nåværende programtillegg listet.</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.doesNotExist">Programtillegget «{$pluginName}» finnes ikke</message>
 	<message key="manager.plugins.fileSelectError">Velg en fil</message>
 	<message key="manager.plugins.upload">Last opp et nytt programtillegg</message>
@@ -322,7 +305,6 @@
 	<message key="manager.reviewForms.confirmDeactivate">Er du sikker på at du vil deaktivere skjemaet? Det vil ikke lenger være tilgjengelig for nye fagfellevurderinger.</message>
 	<message key="manager.reviewForms.confirmCopy">Er du sikker på at du vil lage en kopi av vurderingsskjemaet?</message>
 	<message key="manager.reviewForms.confirmDelete">Er du sikker på at du vil slette skjemaet?</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.pluginGallery.certifications.reviewed">Gjennomgått</message>
 	<message key="manager.plugins.pluginGallery.certifications.partner">Partner</message>
 	<message key="manager.plugins.pluginGallery.maintainer">Vedlikeholder</message>
@@ -335,7 +317,6 @@
 	<message key="manager.plugins.noCompatibleVersion">For øyeblikket er ingen kompatible versjoner av programtillegget tilgjengelige</message>
 	<message key="manager.plugins.installedVersionNewer">Programtillegget er allerede installert. Det er nyere enn den versjonen som er tilgjengelig i galleriet.</message>
 	<message key="manager.plugins.installedVersionOlder">Programtillegget er installert, men kan bli oppdatert til en nyere versjon</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.installedVersionNewest">Nyeste versjon av programtillegget er installert</message>
 	<message key="manager.plugins.installedVersionNewer.short">Nyere enn tilgjengelig versjon</message>
 	<message key="manager.plugins.installedVersionOlder.short">Kan bli oppdatert</message>
@@ -393,22 +374,18 @@
 	<message key="manager.setup.authorGuidelines">Retningslinjer for forfatter</message>
 	<message key="manager.setup.authorGuidelines.description">Anbefalte retningslinjer inkluderer standarder for formatering og bibliografisk informasjon. Det er vanlig å legge ved eksempler.</message>
 	<message key="manager.setup.citations">Referanser</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.wrongCategory">Det opplastede programtillegget stemmer ikke med kategorien til det oppdaterte programtillegget</message>
 	<message key="manager.plugins.wrongName">XML-versjonen i det oppdaterte programtillegget inneholder et programtilleggsnavn som ikke stemmer med navnet på det oppdaterte programtillegget</message>
 	<message key="manager.plugins.pleaseInstall">Programtillegget finnes ikke. Installer det i stedet.</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.pleaseUpgrade">Programtillegget finnes allerede, men er nyere enn den installerte versjonen. Oppdater i stedet.</message>
 	<message key="manager.plugins.settings">Innstillinger</message>
 	<message key="manager.plugins.tarCommandNotFound">Tar-kommandoen er ikke tilgjengelig. Konfigurer den korrekt i «config.inc.php».</message>
 	<message key="manager.plugins.upgrade">Oppgrader programtillegg</message>
 	<message key="manager.plugins.upgradeDescription">Dette skjemaet lar deg oppdatere et programtillegg. Pass på at programtillegget er komprimert som en .tar.gz-fil.</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.upgradeFailed">Oppdateringen mislyktes. {$errorString}</message>
 	<message key="manager.plugins.upgradeSuccessful">Vellykket oppdatering til {$versionString}</message>
 	<message key="manager.plugins.uploadError">Feil under opplasting av fil</message>
 	<message key="manager.plugins.uploadPluginDir">Velg fil for programtillegget</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.versionFileInvalid">version.xml i mappen med programtillegg inneholder ugyldige data</message>
 	<message key="manager.plugins.versionFileNotFound">version.xml ikke funnet i mappen med programtillegg</message>
 	<message key="notification.localeEnabled">Språkpakke på</message>
@@ -417,10 +394,8 @@
 	<message key="notification.localeInstalled">Alle de valgte språkpakkene er installert og aktivert</message>
 	<message key="notification.localeUninstalled">Språkpakken {$locale} installert</message>
 	<message key="notification.localeReloaded">Språkpakken {$locale} lastet opp på nytt</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="notification.localeSettingsSaved">Språkpakkeinnstillingene lagret</message>
 	<message key="notification.editedUser">Bruker redigert</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.distribution.indexing">Indeksering</message>
 	<message key="manager.paymentMethod">Betalinger</message>
 	<message key="manager.paymentMethod.title">Betalingsmåter</message>
@@ -496,11 +471,9 @@
 	<message key="manager.setup.layout.themeDescription">Nye temaer kan installeres fra fanen med programtillegg øverst på siden</message>
 	<message key="manager.setup.layout.blockManagement">Administrasjon av sidemenyen</message>
 	<message key="manager.setup.logo">Logo</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.setup.notifications">Varsel om innlevering fra forfatter</message>
 	<message key="manager.setup.notifications.copyPrimaryContact">Send en kopi til kontaktpersonen som ble identifsert i Trinn 2 i opprettelsen.</message>
 	<message key="manager.setup.notifications.copySpecifiedAddress">Send en kopi til denne e-postadressen</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.setup.filter.parser.grid.description.freeCite"><![CDATA[<p>Dette filteret er knyttet opp mot <a href="http://freecite.library.brown.edu/" target="_blank">FreeCite</a> web service.</p>]]></message>
 	<message key="manager.setup.notifications.description">Forfattere blir tilsendt en automatisk e-post som bekrefter innleveringen deres. Du kan sende kopi av denne e-posten til følgende:</message>
 	<message key="manager.setup.openAccessPolicy">Retningslinjer om Open Access</message>

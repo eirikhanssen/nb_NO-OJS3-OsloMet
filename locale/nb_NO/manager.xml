@@ -12,7 +12,7 @@
   *
   -->
 
-<locale name="nb_NO" full_name = "Norwegian">
+<locale name="nb_NO" full_name="Norsk bokmål">
 	<message key="manager.emails.confirmResetAll">Er du sikker på at du vil tilbakestille alle de e-postmalene  i dette tidsskriftet? Du vil miste alle tilpasninger du har gjort.</message>
 	<message key="manager.files.note">Merk: Filutforskeren er en avansert funksjon som gir mulighet til å se og å manipulere filene og mappene til tidsskriftet direkte.</message>
 	<message key="manager.groups">Redaksjon</message>
@@ -613,19 +613,8 @@
 	<message key="manager.sections.alertDelete">Før du kan slette denne seksjonen, må du flytte artiklene som er publisert i den over i andre seksjoner.</message>
 	<message key="manager.plugins.settings">Innstillinger</message>
 	<message key="manager.payment.options.purchaseIssueFee">Kjøp utgave</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.website.archiving">Arkivering</message>
 	<message key="manager.language.submissions">Innleveringer</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.payment.giftFees">Gaver</message>
 	<message key="manager.payment.giftFeesDescription">En lenke til gjesteabonnement vil vises på «Abonnement»-siden i «Om» tidsskriftet og i sidemenyen.</message>
 	<message key="manager.payment.options.acceptGiftSubscriptionPayments">Dette vil gjøre det mulig for lesere å kjøpe gaveabonnement til andre lesere</message>
@@ -708,18 +697,6 @@
 	<message key="plugins.importexport.common.register.error.mdsError">Registreringen mislyktes. Serveren for DOI-registrering returnerte en feil: {$param}.</message>
 	<message key="plugins.importexport.common.register.success">Registreringen var vellykket</message>
 	<message key="plugins.importexport.common.senderTask.warning.noDOIprefix">DOI-prefikset mangler for tidsskrifte med stien {$path}.</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="subscriptionManager.subscription.confirmRemove">Er du sikker på at du vil slette dette abonnementet?</message>
 	<message key="manager.paymentTypes">Betalingstyper</message>
 	<message key="manager.setup.plnPluginEnable">Programtillegget PKP PN er slått på</message>
@@ -745,7 +722,5 @@
 	<message key="manager.subscriptionPolicies.expiryReminderBeforeMonths">Send e-post til abonnenter om abonnement som snart løper ut</message>
 	<message key="manager.subscriptionPolicies.expiryReminderBeforeWeeks">Send e-post til abonnenter om abonnement som snart løper ut</message>
 	<message key="manager.subscriptions.confirmRenew">Er du sikker på at du vil fornye dette abonnementet?</message>
-	<message key=""><![CDATA[]]></message>
 	<message key="manager.plugins.upgrade">Oppdater programtillegg</message>
-	<message key=""><![CDATA[]]></message>
 </locale>

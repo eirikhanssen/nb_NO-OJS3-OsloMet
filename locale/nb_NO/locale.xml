@@ -1057,7 +1057,6 @@ Forfattere som publiserer med dette tidsskriftet går med på følgende vilkår:
 	<message key="manager.setup.clockssDescription"><![CDATA[Open Journal Systems støtter også systemet <a href="http://clockss.org/" target="_blank">CLOCKSS</a> (Controlled Lots of Copies Keep Stuff Safe). Dette er et system for sikker og permanent arkivering av tidsskriftet. CLOCKSS er basert på «open source»-programvaren LOCKSS utviklet ved Stanford University Library. Det gjør det mulig for bibliotek å bevare valgte nettidsskrift ved automatisk søking i registrerte tidsskriftnettsted etter nylig publisert innhold, og hente det for arkivering. Hvert arkiv blir kontinuerlig validert mot andre biblioteks cacher, og hvis innholdet viser seg å være ødelagt eller tapt, vil de andre cachene eller tidsskriftet bli brukt til å gjenopprette det.
 <br /><br />
 Oppretting av CLOCKSS' støtte for Open Journal Systems trenger ikke skje før etter at publiseringen er godt i gang.]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="editor.submissionEditing.notes"><![CDATA[<ol>
 	<li>De merkede elementene indikerer at redaktøren har oppgaver som venter:
 		<ul>
@@ -1145,16 +1144,6 @@ Oppretting av CLOCKSS' støtte for Open Journal Systems trenger ikke skje før e
 	<message key="search.cli.rebuildIndex.indexing">Indekserer {$journalName}</message>
 	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Denne typen søk tillater ikke ny indeksering for hvert tidsskrift</message>
 	<message key="search.cli.rebuildIndex.unknownJournal">Tidsskriftstien «{$journalPath}» kunne ikke knyttes til et tidsskrift</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="reviewer.submission.reviewFormResponse.form.responseRequired">Legg inn de nødvendige feltene</message>
 	<message key="user.role.subEditor">Seksjonsredaktør</message>
 	<message key="subscriptions.status.noSubscription">Du har ingen aktive abonnementer</message>
