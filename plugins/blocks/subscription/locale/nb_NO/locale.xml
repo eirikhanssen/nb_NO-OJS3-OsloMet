@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.block.subscription.displayName">Abonnementsblokk</message>
+	<message key="plugins.block.subscription.description">Dette programtillegget lager en sidemeny med abonnementsinformasjon</message>
+	<message key="plugins.block.subscription.blockTitle">Abonnement</message>
+	<message key="plugins.block.subscription.expires">Løper ut</message>
+	<message key="plugins.block.subscription.providedBy">Adgang gitt av: {$institutionName}</message>
+	<message key="plugins.block.subscription.comingFromIP">Adgang fra: {$ip}</message>
+	<message key="plugins.block.subscription.about">Abonnementer</message>
+	<message key="plugins.block.subscription.loginToVerifySubscription">Logg inn til innhold som krever abonnement</message>
+	<message key="plugins.block.subscription.subscriptionRequired">Du må ha et abonnement for å ha adgang til deler av innholdet</message>
+	<message key="plugins.block.subscription.subscriptionRequired.learnMore">Lær mer</message>
+</locale>

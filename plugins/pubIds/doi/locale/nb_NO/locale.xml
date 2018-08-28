@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.pubIds.doi.displayName">DOI</message>
+	<message key="plugins.pubIds.doi.description">Dette programtillegget oppretter DOI-er (digitale objektidentifikatorer) til utgaver, artikler og oppsett i OJS.</message>
+	<message key="plugins.pubIds.doi.readerDisplayName">DOI</message>
+	<message key="plugins.pubIds.doi.manager.settings.description">Konfigurer DOI-programtillegget så du kan administrere og bruke DOI i OJS:</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiObjects">Tidsskriftets innhold</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiObjectsRequired">Velg de elementene DOI-er skal opprettes for.</message>
+	<message key="plugins.pubIds.doi.manager.settings.explainDois">Velg de elementene som det skal oppnevnes DOI-er for.</message>
+	<message key="plugins.pubIds.doi.manager.settings.enableIssueDoi">Utgaver</message>
+	<message key="plugins.pubIds.doi.manager.settings.enableSubmissionDoi">Artikler</message>
+	<message key="plugins.pubIds.doi.manager.settings.enableRepresentationDoi">Oppsett</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiPrefix">DOI-prefiks</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiPrefix.description"><![CDATA[Prefikset lages av aktører som <a href="http://www.crossref.org" target="_new">CrossRef</a>) og har formatet 10.xxxx. Eksempel: 10.1234.]]></message>
+	<message key="plugins.pubIds.doi.manager.settings.doiPrefixPattern">DOI-en må ha et prefiks. Det må ha formatet 10.xxxx.</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffix">DOI-suffiks</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffix.description">DOI-suffikset kan ha hvilken som helst form, så lenge det kan skilles fra elementer som har samme DOI-prefiks.</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern">Bruk mønsteret under for å generere DOI-suffikser. Bruk %j for tidsskriftinitialer; %v for årgangen; %i for utgaven; %y for år; %a for ID-en artikkelen fikk av OJS; %f for ID-en filen fikk av OJS; %p for sidenummeret; %g for oppsett og %x for «Egendefinert identifikator».</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.example">Eksempel: «vol%viss%ipp%p» lager DOI-en «10.1234/vol3iss2pp230»</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.issues">for utgaver</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.submissions">for artikler</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.representations">for oppsett</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixDefault">Bruk standardmønster</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixDefault.description"><![CDATA[%j.v%vi%i for utgaver<br />%j.v%vi%i.%a for artikler<br />%j.v%vi%i.%a.g%g for oppsett.]]></message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSuffixCustomIdentifier">Legg inn et indiduelt DOI-suffiks for hvert enkelt publisert element. Du finner et ytterligere felt for å legge inn DOI på siden med metadata for hvert element.</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiIssueSuffixPatternRequired">Legg inn mønsteret for DOI-suffiks for utgaver</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiSubmissionSuffixPatternRequired">Legg inn mønsteret for DOI-suffiks for artikler</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiRepresentationSuffixPatternRequired">Legg inn mønsteret for DOI-suffiks for oppsett</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiReassign">Opprett nye DOI-er</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiReassign.description">Om du endrer DOI-konfigurasjonen din, vil det ikke gå ut over DOI-er som allerede er lagret. Så snart DOI-konfigurasjonen er laget, bruk denne knappen for å tømme alle eksisterende DOI-er så de nye innstillingene vil implementeres med de eksisterende objektene.</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiReassign.confirm">Er du sikker på at du fil slette alle eksisterende DOI-er?</message>
+	<message key="plugins.pubIds.doi.editor.doi">DOI</message>
+	<message key="plugins.pubIds.doi.editor.doiObjectTypeIssue">utgave</message>
+	<message key="plugins.pubIds.doi.editor.doiObjectTypeSubmission">artikkel</message>
+	<message key="plugins.pubIds.doi.editor.doiObjectTypeRepresentation">oppsett</message>
+	<message key="plugins.pubIds.doi.editor.customSuffixMissing">DOI-en kan ikke brukes fordi den mangler et egendefinert suffiks.</message>
+	<message key="plugins.pubIds.doi.editor.patternNotResolved">DOI-en kan ikke brukes fordi den inneholder et mønster som ikke er oversatt.</message>
+	<message key="plugins.pubIds.doi.editor.canBeAssigned">Du ser nå en forhåndsvisning av DOI-en. Kryss av i boksen og lagre skjemaet for å bruke DOI-en.</message>
+	<message key="plugins.pubIds.doi.editor.assigned">DOI-en blir opprettet til {$pubObjectType}.</message>
+	<message key="plugins.pubIds.doi.editor.doiSuffixCustomIdentifierNotUnique">Dette DOI-suffikset er brukes allerede for et nytt element. Legg inn et unikt DOI-suffiks.</message>
+	<message key="plugins.pubIds.doi.editor.clearObjectsDoi">Tøm DOI</message>
+	<message key="plugins.pubIds.doi.editor.clearObjectsDoi.confirm">Er du sikker på at du vil slette den eksisterende DOI-en?</message>
+	<message key="plugins.pubIds.doi.editor.clearIssueObjectsDoi">Tøm DOI-ene til elementene i denne utgaven</message>
+	<message key="plugins.pubIds.doi.editor.clearIssueObjectsDoi.confirm">Er du sikker på at du vil slette de eksisterende DOI-ene for elementene i denne utgaven?</message>
+	<message key="plugins.pubIds.doi.editor.clearIssueObjectsDoi.description">Bruk det følgende alternativet for å tømme DOI-ene for alle elementene (artikler og oppsett) som er planlagt for denne utgaven.</message>
+	<message key="plugins.pubIds.doi.editor.assignDoi">Opprett DOIen {$pubId} for {$pubObjectType}</message>
+	<message key="plugins.pubIds.doi.editor.assignDoi.emptySuffix">DOI-en kan ikke bli brukt fordi den mangler et egendefinert suffiks</message>
+	<message key="plugins.pubIds.doi.editor.assignDoi.pattern">DOI-en {$pubId} kan ikke brukes fordi den inneholder et mønster som ikke er oversatt</message>
+	<message key="plugins.pubIds.doi.editor.assignDoi.assigned">DOI-en {$pubId} er opprettet og tatt i bruk.</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiAssignJournalWide">Tildel DOI</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiAssignJournalWide.description">Tildel DOI-er til alle publiserte tidsskriftselementer som ikke har fått tildelt DOI-er. Denne handlingen kan ikke brukes med individuel lsuffikskonfigurasjon. Dersom du har modifisert DOI-konfigurasjonen over, lagre endringene dine før du starter denne handlingen. Det kan ta tid å tildele DOI-er, avhengig av antall publiserte objekter i tidsskriftet.</message>
+	<message key="plugins.pubIds.doi.manager.settings.doiAssignJournalWide.confirm">Er du sikker på at du vil tildele DOI-er til alle publiserte objekter som ikke har fått tildelt DOI-er?</message>
+</locale>

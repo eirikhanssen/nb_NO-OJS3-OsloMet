@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.importexport.doaj.displayName">DOAJ</message>
+	<message key="plugins.importexport.doaj.description">Dette programtillegget eksporterer tidsskriftet til DOAJ (Directory of Open Access Journals)</message>
+	<message key="plugins.importexport.doaj.export.contact">Kontakt DOAJ for å inkludere tidsskriftet ditt i systemet</message>
+	<message key="plugins.importexport.doaj.registrationIntro">Hvis du vil registrere artiklene fra OJS, legg inn DOAJ API-nøkkelen din. Dersom du ikke gjør det, vil du fremdeles kunne eksportere til DOAJ XML-format, men du kan ikke registrere artiklene dine hos DOAJ fra OJS.</message>
+	<message key="plugins.importexport.doaj.settings.form.apiKey">DOAJ API-nøkkel</message>
+	<message key="plugins.importexport.doaj.settings.form.apiKey.description">Du finner API-nøkkelen din på siden din hos DOAJ</message>
+	<message key="plugins.importexport.doaj.settings.form.automaticRegistration.description">OJS vil sende artikler automatisk til DOAJ. Dette kan ta tid å behandle. Du kan se etter uregistrerte artikler.</message>
+	<message key="plugins.importexport.doaj.settings.form.testMode.description">Bruk DOAJ test API for registreringen. Husk å fjerne denne valgmuligheten for produksjonsfasen.</message>
+	<message key="plugins.importexport.doaj.senderTask.name">DOAJs automatiske registrering</message>
+	<message key="plugins.importexport.doaj.register.error.mdsError">Oversendingen mislyktes. DOAJ API returnerte feilen: {$param}</message>
+	<message key="plugins.importexport.doaj.cliUsage">Usage:
+{$scriptName} {$pluginName} eksport [xmlFileName] [journal_path] artikler objektId1 [objektId2] ...</message>
+</locale>

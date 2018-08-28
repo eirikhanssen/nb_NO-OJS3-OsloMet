@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * emailTemplateData.xml
+  *
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+<email_texts locale="nb_NO">
+	<email_text key="PAYPAL_INVESTIGATE_PAYMENT">
+		<subject>Uvanlig aktivitet på PayPal</subject>
+		<body><![CDATA[Open Journal Systems har registrert uvanlig aktivitet relatert til PayPals betalingsstøtte for tidsskriftet <i>{$contextName}</i>. Denne aktiviteten kan behøve ytterligere undersøkelser eller manuell inngripen.<br />
+                       <br />
+Denne e-posten ble generert med Open Journal Systems programtillegg for PayPal.<br />
+<br />
+Full informasjon om forespørselen:<br />
+{$postInfo}<br />
+<br />
+Ytterligere informasjon (om oppgitt):br />
+{$additionalInfo}<br />
+<br />
+Server vars:<br />
+{$serverVars}<br />]]></body>
+		<description>Denne e-postmalen brukes for å informere tidskriftets kontaktperson om at programtillettet for PayPay registrerte mistenkelig aktivitiet eller aktiviterer som krever manuell behandling.</description>
+	</email_text>
+</email_texts>

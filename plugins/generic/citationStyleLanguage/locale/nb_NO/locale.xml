@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.generic.citationStyleLanguage.displayName">Språk for referansestil</message>
+	<message key="plugins.generic.citationStyleLanguage.description">La leserne få referansene til en publisert artikkel i et format støttet av Citation Style Language</message>
+	<message key="plugins.generic.citationStyleLanguage.style.acm-sig-proceedings">ACM</message>
+	<message key="plugins.generic.citationStyleLanguage.style.acs-nano">ACS</message>
+	<message key="plugins.generic.citationStyleLanguage.style.apa">APA</message>
+	<message key="plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas">ABNT</message>
+	<message key="plugins.generic.citationStyleLanguage.style.chicago-author-date">Chicago</message>
+	<message key="plugins.generic.citationStyleLanguage.style.harvard-cite-them-right">Harvard</message>
+	<message key="plugins.generic.citationStyleLanguage.style.ieee">IEEE</message>
+	<message key="plugins.generic.citationStyleLanguage.style.modern-language-association">MLA</message>
+	<message key="plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography">Turabian</message>
+	<message key="plugins.generic.citationStyleLanguage.style.vancouver">Vancouver</message>
+	<message key="plugins.generic.citationStyleLanguage.download.bibtex">BibTeX</message>
+	<message key="plugins.generic.citationStyleLanguage.download.ris">Endnote/Zotero/Mendeley (RIS)</message>
+	<message key="plugins.generic.citationStyleLanguage.settings.citationDownloads">Formater som kan lastes ned</message>
+	<message key="plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription">Velg de nedlastbare formatene du vil tilby leserne. Nedlastbare formater er vanligvis brukt for å importere til et referanseverktøy, f.eks. EndNote og Zotero.</message>
+	<message key="plugins.generic.citationStyleLanguage.settings.citationFormats">Ytterligere referanseformat</message>
+	<message key="plugins.generic.citationStyleLanguage.settings.citationFormatsDescription">Velg ytterligere referanseformat som du vil tilby leserne</message>
+	<message key="plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary">Det primære referanseformatet</message>
+	<message key="plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription">Velg hvilket referanseformat du vil vise som standard på landingssiden for artikler</message>
+</locale>

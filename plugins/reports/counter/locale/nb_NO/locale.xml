@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.reports.counter.description"><![CDATA[Programtillegget COUNTER gjør det mulig å rapportere aktivitet i tidsskriftet ved bruk av <a href="http://www.projectcounter.org">COUNTER standarden</a>. Disse rapportene gjør ikke alene tidsskriftet kompatibelt med COUNTER. For å tilby COUNTER-kompatibilitet, se gjennom  kravene på nettstedet til Project COUNTER.]]></message>
+	<message key="plugins.reports.counter">COUNTER-rapporter</message>
+	<message key="plugins.reports.counter.release">COUNTER-lansering</message>
+	<message key="plugins.reports.counter.olderReports">Eldre rapporter</message>
+	<message key="plugins.reports.counter.error.badParameters">Rapportens parametre var ugyldige</message>
+	<message key="plugins.reports.counter.error.badRequest">Rapportforespørselen var ugyldig</message>
+	<message key="plugins.reports.counter.error.noResults">Det var ingen resultat for denne rapporten</message>
+	<message key="plugins.reports.counter.error.noXML">Resultatene kunne ikke formateres som XML</message>
+	<message key="plugins.reports.counter.1a.introduction">Disse lenkene genererer COUNTER-klare rapporter basert på den foreldete Release 3.0. Rapporten dekker alle tidsskriftene på nettsiden. Bruk den siste Release i stedet, om mulig.</message>
+	<message key="plugins.reports.counter.1a.name">COUNTER-rapport JR1 (R3)</message>
+	<message key="plugins.reports.counter.1a.xml">XML-versjon</message>
+	<message key="plugins.reports.counter.1a.description">COUNTER tidsskriftsrapport  1 (R3): Forespørsler om artikler i fulltekst etter måned og tidsskrift.</message>
+	<message key="plugins.reports.counter.1a.title">Tidsskriftsrapport 1 (R3): Forespørsler om artikler i fulltekst etter måned og tidsskrift.</message>
+	<message key="plugins.reports.counter.1a.title1">Tidsskriftsrapport 1 (R3)</message>
+	<message key="plugins.reports.counter.1a.title2">Antall vellykkede forespørsler om artikler i fulltekst etter måned og tidsskrift (år {$year})</message>
+	<message key="plugins.reports.counter.1a.dateRun">Dato:</message>
+	<message key="plugins.reports.counter.1a.publisher">Utgiver</message>
+	<message key="plugins.reports.counter.1a.platform">Plattform</message>
+	<message key="plugins.reports.counter.1a.printIssn">ISSN (trykket)</message>
+	<message key="plugins.reports.counter.1a.onlineIssn">ISSN (nett)</message>
+	<message key="plugins.reports.counter.1a.ytdTotal">Total YTD</message>
+	<message key="plugins.reports.counter.1a.ytdHtml">YTD HTML</message>
+	<message key="plugins.reports.counter.1a.ytdPdf">YTD PDF</message>
+	<message key="plugins.reports.counter.1a.totalForAllJournals">Totalt for alle tidsskrift</message>
+	<message key="plugins.reports.counter.1a.anonymous">anonym</message>
+	<message key="plugins.reports.counter.legacyStats">Lenkene under generer foreldede rapporter med eldre programtilleggsdata, som ikke er COUNTER-klare. Dersom du vil generere oppdaterte COUNTER-rapporter ved hjelp av den nye OJS COUNTER måltypen, bruk lenkene over.</message>
+	<message key="plugins.reports.counter.allCustomers">Alle kunder</message>
+</locale>

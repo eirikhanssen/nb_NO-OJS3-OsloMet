@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/default.xml
+  *
+  * Copyright (c) 2014-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * (Norwegian translation from english by Karl Henrik Flyum, Dept. of teacher education and school development, University of Oslo, Norway, 2006-2007)
+  * Localization strings for the nb_NO (Norsk bokmål) locale.
+  *
+  -->
+ 
+<locale name="nb_NO" full_name="Norsk bokmål">
+ 	<message key="default.journalSettings.checklist.notPreviouslyPublished">Manuskriptet er ikke tidligere publisert. Det er heller ikke til fagfellevurdering i noe annet tidsskrift. (Gi en forklaring i feltet «Kommentarer til redaktøren» om annet er tilfelle.)</message>
+	<message key="default.journalSettings.checklist.fileFormat">Filen er levert i Microsoft Word eller som RTF-fil</message>
+	<message key="default.journalSettings.checklist.addressesLinked"><![CDATA[Om mulig, er URL-adresser til alle de nettbaserte referansene oppgitt. URL-adressene må være klikkbare (f.eks. <a href="http://pkp.sfu.ca">http://pkp.sfu.ca</a>).]]></message>
+ 	<message key="default.journalSettings.checklist.submissionAppearance">Teksten har: enkel linjeavstand; 12-punkts skrifttype som normalskrift (helst Times New Roman); kursiv i stedet for understreking (unntatt i URL-adresser); aldri fet skrift (unntatt i overskrifter, kursiv er ellers eneste uthevingsmåte); og alle illustrasjoner, figurer og tabeller er satt inn på rett plass i teksten.</message>
+ 	<message key="default.journalSettings.checklist.bibliographicRequirements"><![CDATA[Teksten følger kravene for stil og bibliografisk formatering, slik de er angitt i <a href="submissions#authorGuidelines" target="_blank">«Forfatterinstruks»</a>.]]></message>
+ 	<message key="default.journalSettings.privacyStatement">Navn og e-postadresser som oppgis til dette tidsskriftet og nettstedet vil kun bli brukt for de formålene som er oppgitt for tidsskriftet eller som følger av gyldig rettslig pålegg. De vil ikke bli gjort tilgjengelig for andre formål eller for uvedkommende.</message>
+ 	<message key="default.journalSettings.openAccessPolicy"><![CDATA[Tidsskriftet kommer til å gi alle brukere åpen tilgang <i>(Open Access)</i>, det vil si fri og gratis tilgang til alt publisert innhold.]]></message>
+	<message key="default.journalSettings.authorSelfArchivePolicy">Forfattere oppfordres til å gjøre artiklene sine fra dette tidsskriftet tilgjengelig på personlige eller institusjonelle nettsted, både før og etter publisering. Dette forutsetter at forfatterne inkluderer de bibliografiske detaljene som krediterer dette tidsskriftet for publiseringen av artikkelen.</message>
+	<message key="default.journalSettings.copyeditInstructions"><![CDATA[Språkvasken skal forbedre flyt, klarhet, grammatisk korrekthet, ordvalg og formatvalg i artiklene. Dette stadiet er siste sjanse for forfatteren til å gjøre innholdsmessige endringer i teksten, ettersom det neste stadiet er begrenset til korreksjon av trykkfeil og formatering.
+
+Filen til språkvask skal være i Word eller .rtf filformat, og kan derfor ganske enkelt redigeres som et vanlig tekstdokument. De følgende instruksene viser to rutiner. Den første bygger på Microsoft Words «Spor endringer»-funksjon, og krever at både språkvaskeren, redaktøren og forfatteren bruker dette programmet. Den andre rutinen er uavhengig av programvare, og er hentet fra Harvard Educational Review, med deres tillatelse. Vær oppmerksom på at redaktør står fritt til å tilpasse disse instruksene, så kom gjerne med forslag til forbedringer av prosessen.
+
+<h4>To språkvaskrutiner</h4>
+Språkvasken skal forbedre flyt, klarhet, grammatisk korrekthet, ordvalg og formateringen i artiklene. Dette stadiet er siste sjanse for forfatteren til å gjøre innholdsmessige endringer i teksten, ettersom det neste stadiet er begrenset til korreksjon av trykkfeil og formatering.
+
+Filen som skal til språkvask må være i Word eller .rtf filformat, og kan derfor ganske enkelt red
+<b>1. Microsoft Words «Spor endringer»</b>
+
+Under «Verktøy» på menylinjen i Word finnes funksjonen «Spor endringer», som lar manusredaktøren å skrive innskudd (teksten vises i farge) og slette (tekst vises overstreket i farge, eller i margen: merket slettet). Språkvaskeren kan dessuten både skrive inn spørsmål til forfatteren [SpF:] og til redaktøren [SpR:] ved å skrive spørsmålene inn i hakeparenteser i teksten. Så lastes den språkvaskede versjonen opp til tidsskriftet, og redaktøren varsles. Redaktøren vurderer deretter teksten med merknadene, og kontakter så forfatteren.
+
+Redaktøren og forfatteren bør la de endringene de er fornøyde med stå. Hvis videre endringer er nødvendig, kan redaktøren og forfatteren både gjøre sine nye endringer i de første innskuddene eller slettingene, og skrive nye innskudd eller slette andre steder i teksten. Forfattere og redaktører bør svare på alle spørsmål språkvaskeren har stilt dem, fortrinnsvis ved å skrive svaret inn i samme hakeparentes [SpF. xxxxx; F. yyyyy]
+
+Etter at teksten er revidert av både redaktøren og forfatteren, skal språkvaskeren foreta en siste gjennomgang for å godkjenne alle endringer, før teksten sendes videre til layout og oppsett.
+<b>2. Harvard Educational Review  (<i>HER</i>)</b>
+
+<b>Instruks for elektronisk omarbeiding av manuskriptet</b>
+
+Følg denne rutinen når du skal spåkvaske manuskriptet ditt elektronisk:
+
+<b>Svar på foreslåtte endringer</b>
+&nbsp; For hver av de foreslåtte endringene som du aksepterer: fjern uthevingen fra teksten.
+&nbsp; For hver av de foreslåtte endringene som du ikke aksepterer: skriv inn den opprinnelige teksten, og <b>uthev</b> den.
+
+<b>Foreslå tillegg og strykninger</b>
+&nbsp; Marker tillegg ved å <b>utheve</b> den nye teksten
+&nbsp; Erstatt slettet tekst med: <b>[slettet tekst]</b>
+&nbsp; Hvis du sletter en hel setning eller flere, pass på å presisere dette, f.eks. <b>[slettet 2 setninger]</b>
+
+<b>Svar på  spørsmål til forfatteren (SpF)</b>
+&nbsp; La alle SpF stå intakt og uthevet inne i teksten. Ikke slett dem.
+&nbsp; For å svare på et SpF, legger du til en kommentar etter det. Kommentarer bør vises i samme format som SpF, i hakeparentes og uthevet, slik:
+<b>[Kommentar: xxxxx</b>]
+&nbsp; for eks. <b>[Kommentar: Utvidet metodediskusjonen, som foreslått]</b>
+
+<b>Gi kommentarer</b>
+&nbsp; Bruk kommentarer for å forklare strukturendringer eller større omarbeidinger
+&nbsp; f.eks. <b>[Kommentar: Flyttet avsnittet ovenfor fra s. 5 til s. 7].</b>
+&nbsp; Merk: Når du viser til sidetall, bruk sidetallene fra den sidestabile PDF-utgaven av manuskriptet, som du fikk tilsendt sammen med tekstbehandlingsfilen. Dette er viktig fordi sideovergangene endres etter hvert som dokumentfilen blir omarbeidet elektronisk.
+
+<h4>Eksempel på en elektronisk omarbeiding</h4>
+
+<ol>
+<li><strong>Innledende språkvask</strong>
+Språkvaskeren vil redigere teksten for å forbedre flyt, klarhet, ordvalg og formatering, samt inkludere spørsmål til forfatter der det er nødvendig. Når de første språkvask er klart, vil språkvaskeren laste opp det reviderte dokumentet via tidsskriftets nettside og informere forfatteren om at et språkvasket manuskript kan gjennomgås.</li>
+
+<li><strong>Forfatterens språkvask</strong> Før du gjør drastiske endringer i struktur og organisering av den språkvaskede filen, må forfatteren sjekke med redaktørene som har ansvar for innleveringen. Forfattere bør akseptere eller avvise endringer gjort under den innledende språkvasken, ettersom det passer, og svare på alle spørsmålene. Når språkvasken  er klar, bør forfattere gi nytt navn på filen, fra ForfatternavnSpF.doc til ForfatternavnSvSpF.doc (f.eks. fra ArvidJensenSpF.doc til ArvidJensenSvSpF.doc), og laste opp det reviderte dokumentet via tidsskriftets nettsted.</li>
+
+<li><strong>Endelig språkvask</strong> Tidsskriftets språkvasker vil bekrefte endringene forfatteren gjorde og inkorporere responsene fra forfatteren, for så å lage et endelig manus. Når det er klargjort, laster språkvaskeren opp det endelige dokumentet via tidsskriftets nettsted og informerer layoutredaktøren om at manuset er klar for videre behandling.</li>
+</ol>
+]]></message>
+
+ 	<message key="default.journalSettings.proofingInstructions"><![CDATA[Korrekturstadiet skal vanligvis bare korrigere feil i de oppsatte sidenes ortografi, grammatikk og formatering. Innholdsmessige endringer tillates ikke på dette stadiet, med mindre seksjonsredaktøren har godkjent dette spesielt på forhånd. Klikk på «Layout» i «Vis korrektur» for å få se hvilke HTML, PDF og andre tigjengelige filformat som er brukt ved publiseringen av dette elementet. 
+
+<b>Ved ortografiske og grammatiske feil</b>
+
+Kopier ordet eller ordgruppen, og lim dem inn i «Korrekturlesing: rettelser»-boksen med «ENDRE-TIL»-instruksjon til redaktøren, som følger ...
+
+1. ENDRE ...
+for de andre
+TIL ...
+før de andre
+
+2. ENDRE ...
+Malinowsky
+TIL ...
+Malinowski
+
+<strong>Ved formateringsfeil</strong>
+
+Beskriv hvor og hva feilen er i «Korrekturlesing: rettelser»-boksen, under tittelen «FORMATERING», som følger ...
+
+3. FORMATERING
+Tallene i Tabell 3, 3. kolonne er ikke rett justert.
+
+4. FORMATERING
+Avsnittet som begynner med «På den annen side ...» mangler tabulatorinnrykk.]]></message>
+	<message key="default.journalSettings.emailSignature"><![CDATA[________________________________________________________________________<br>
+<a href="{$ldelim}$contextUrl{$rdelim}">{$ldelim}$contextName{$rdelim}</a>]]></message>
+ 	<message key="default.journalSettings.forReaders"><![CDATA[Vi oppfordrer alle lesere til å registrere seg for å motta publiseringsvarsel fra dette tidsskriftet. Bruk lenken <a href="{$indexUrl}/{$journalPath}/user/register">Registrer</a> øverst på hjemmesiden for tidsskriftet. Da vil du få tilsendt en e-post med innholdsfortegnelsen for hver nye utgivelse. På denne måten kan tidsskriftet dessuten dokumentere leserkretsen sin. Se gjerne tidsskriftets <a href="{$indexUrl}/{$journalPath}/about/submissions#privacyStatement">Erklæring om personvern</a>, som skal sikre at lesernes navn og e-postadresser ikke brukes for uvedkommende formål.]]></message>
+ 	<message key="default.journalSettings.forAuthors"><![CDATA[Ønsker du å sende inn bidrag til dette tidsskriftet? I så fall bør du sette deg inn i  retningslinjene for tidsskriftetsseksjonene under <a href="{$indexUrl}/{$journalPath}/about">«Om» tidsskriftet</a>, og <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">«Forfatterinstruks»</a>. Forfattere må <a href="{$indexUrl}/{$journalPath}/user/register">registrere</a> seg i tidsskriftet før de kan sende inn bidrag. Hvis du allerede er registrert, kan du ganske enkelt <a href="{$indexUrl}/index/login">logge inn</a> og starte innleveringen.]]></message>
+ 	<message key="default.journalSettings.forLibrarians"><![CDATA[Vi oppfordrer alle forskningsbibliotekarer til å føre dette tidsskriftet inn i den elektroniske tidsskriftbeholdningen ved deres bibliotek. Dessuten gjør vi oppmerksom på at dette tidsskriftets Open Source-programvare egner seg for bibliotek som vil være vertskap for vitenskapelig ansattes arbeid med fagtidsskrift (se <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).]]></message>
+ 	<message key="default.journalSettings.lockssLicense"><![CDATA[Dette tidsskriftet benytter LOCKSS systemet for å utvikle et distribuert arkivsystem sammen med andre tilsluttete bibliotek, og lar disse bibliotekene opprette permanente fullstendige arkiv av tidsskriftet, til bevarings- og gjenopprettingsformål . <a href="http://www.lockss.org/">«Mer ...»</a>]]></message>
+
+	<message key="section.default.title">Artikler</message>
+	<message key="section.default.abbrev">ART</message>
+	<message key="default.journalSettings.membershipFeeDescription">Betaler du denne avgiften, er du medlem i foreningen i ett år og det gir deg gratis tilgang til dette tidsskriftet.</message>
+	<message key="default.journalSettings.donationFee">Gaver til tidsskriftet</message>
+	<message key="default.journalSettings.donationFeeDescription">Alle gaver, uansett beløp, til tidsskriftet tas imot med glede. De gir redaktørene mulighet til å fortsette å gi ut et kvalitetstidsskrift som kan være til glede for leserne.</message>
+	<message key="default.journalSettings.submissionFeeDescription">Forfattere må betale en avgift som del av innleveringsprosessen. Denne avgiften bidrar til å dekke kostnadene ved fagfellevurdering.</message>
+	<message key="default.journalSettings.fastTrackFee">Raskere fagfellevurdering</message>
+	<message key="default.journalSettings.fastTrackFeeDescription">Om du betaler denne avgiften, garanterer vi at fagfellevurdering, redaksjonell vurdering og melding til forfatteren skjer i løpet av fire uker.</message>
+	<message key="default.journalSettings.publicationFee">Publisering</message>
+	<message key="default.journalSettings.publicationFeeDescription">Om denne artikkelen blir akseptert for publisering, vil du bli bedt om å betale en publiseringsavgift for å dekke kostnadene.</message>
+	<message key="default.journalSettings.waiverPolicy">Om du ikke har midler til å betale avgiften, har vi mulighet for å gjøre unntak for deg. Vi ønsker ikke at avgifter skal hindre publisering av kvalifiserte arbeider.</message>
+	<message key="default.journalSettings.purchaseArticleFee">Kjøp artikkel</message>
+	<message key="default.journalSettings.purchaseArticleFeeDescription">Betaler du denne avgiften, kan du se, laste ned og skrive ut denne artikkelen.</message>
+	<message key="default.journalSettings.membershipFee">Foreningsmedlemskap</message>
+	<message key="default.journalSettings.submissionFee">Innlevering</message>
+	<message key="default.journalSettings.refLinkInstructions"><![CDATA[<h4>Å legge til lenker til referanser som del av layoutprosessen</h4>
+    <p>Når et manus gjøres om til HTML eller PDF, må du sørge for at alle lenkene i manuset er aktive.</p>
+    <h4>A. Når forfatteren oppgir en lenke med referansen</h4>
+    <ol>
+    <li>Mens manuset fortsatt er i tekstbehandlingsformatet (f.eks. Word), legg teksten SE REFERANSEN på slutten av referansen som har en URL.</li>
+    <li>Gjør den teksten om til en lenke ved å markere den, og bruk Words verktøy for å sette inn lenken forfatteren har angitt.</li>
+    </ol>
+    <h4>B. Gjør det mulig å søke i Google Scholar etter referanser</h4>
+    <ol>
+    <li>Mens manuset fortsatt er i tekstbehandlingsformat (f.eks. Word), kopierer du tittelen på arbeidet det refereres til i referanselisten (om tittelen virker lite spesifikk, f.eks. «Fred», kopier forfatter og tittel).</li>
+    <li>Lim referansens tittel mellom %22-ene nedenfor, med en + mellom hvert ord: http://scholar.google.com/scholar?q=%22LIM+INN+TITTELEN+HER%22&hl=en&lr=&btnG=Search</li>
+    <li>Legg til teksten SØK I GS på slutten av hver referanse i manusets referanseliste.</li>
+    <li>Gjør teksten SØK i GS om til en lenke ved å markere den, og bruk Words verktøy for å sette inn lenker og legg inn URLen du laget under punkt 2 foran.</li>
+    </ol>
+    <h4>C. Gjør det mulig å søke etter referanser med en DOI</h4>
+    <ol>
+    <li>Mens manuset fortsatt er i tekstbehandlingsformatet, kopierer du referanselisten inn i CrossRef Text Query http://www.crossref.org/freeTextQuery/</li>
+    <li>Lim hver DOI du får tilbake fra søket inn i følgende URL (mellom = og &): http://www.cmaj.ca/cgi/external_ref?access_num=LIM DOI#HER&link_type=DOI</li>
+    <li>Legg til teksten «CrossRef» på slutten av hver referanse i manusets referanseliste.</li>
+    <li>Gjør den teksten om til en lenke ved å merke den og bruk Words verktøy for innsetting av lenke, og den aktuelle URLen som ble laget under punkt 2.</li>
+    </ol>]]></message>
+	<message key="default.journalSettings.purchaseIssueFee">Kjøp dette nummeret</message>
+	<message key="default.journalSettings.purchaseIssueFeeDescription">Betaler du denne avgiften, kan du lese, laste ned og skrive ut dette nummeret.</message>
+	<message key="default.genres.dataAnalysis">Dataanalyse</message>
+	<message key="default.genres.dataSet">Datasett</message>
+	<message key="default.genres.sourceTexts">Kildetekst</message>
+	<message key="default.groups.name.externalReviewer">Fagfelle</message>
+	<message key="default.groups.plural.externalReviewer">Fagfeller</message>
+	<message key="default.groups.abbrev.externalReviewer">FF</message>
+	<message key="default.genres.article">Artikkelen</message>
+	<message key="default.groups.name.manager">Redaksjonsleder</message>
+	<message key="default.groups.plural.manager">Redaksjonsledere</message>
+	<message key="default.groups.plural.guestEditor">Gjesteredaktører</message>
+	<message key="default.groups.abbrev.guestEditor">GRed</message>
+	<message key="default.groups.name.sectionEditor">Seksjonsredaktør</message>
+	<message key="default.groups.plural.sectionEditor">Seksjonsredaktører</message>
+	<message key="default.journalSettings.clockssLicense"><![CDATA[Dette tidsskriftet bruker CLOCKSS-systemet for å lage et distribuert arkivsystem sammen med andre tilsluttede bibliotek, og lar disse bibliotekene opprette permanente fullstendige arkiv av tidsskriftet, til bevarings- og gjenopprettingsformål. <a href="http://clockss.org/">«Mer ...»</a>]]></message>
+	<message key="default.groups.abbrev.manager">RL</message>
+	<message key="default.groups.name.editor">Redaktør</message>
+	<message key="default.groups.plural.editor">Redaktører</message>
+	<message key="default.groups.abbrev.editor">Red</message>
+	<message key="default.groups.name.guestEditor">Gjesteredaktør</message>
+	<message key="default.genres.transcripts">Transkripsjoner</message>
+	<message key="section.default.policy">Retningslinjer</message>
+	<message key="default.groups.abbrev.sectionEditor">SRed</message>
+	<message key="default.groups.name.subscriptionManager">Abonnementsansvarlig</message>
+	<message key="default.groups.plural.subscriptionManager">Abonnementsansvarlige</message>
+	<message key="default.groups.abbrev.subscriptionManager">AboAn</message>
+	<message key="default.genres.researchInstrument">Forskningsinstrument</message>
+	<message key="default.genres.researchMaterials">Forskningsmateriale</message>
+	<message key="default.genres.researchResults">Forskningsresultater</message>
+</locale>

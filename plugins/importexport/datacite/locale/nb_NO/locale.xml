@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.importexport.datacite.displayName">DataCite</message>
+	<message key="plugins.importexport.datacite.description">Dette programtillegget eksporterer eller registrerer en utgave, artikkel, oppsett og metadata fra tilleggsfiler i DataCite-formatet</message>
+	<message key="plugins.importexport.datacite.settings.description">Konfigurer programtillegget for eksport i DataCite før du bruker det for første gang</message>
+	<message key="plugins.importexport.datacite.intro"><![CDATA[Om du vil registere DOI-er med DataCite, ta kontakt med «Managing Agent» via <a href="http://datacite.org/contact" target="_blank">DataCites
+        hjemmeside</a>. (Merk: død lenke per 31.07.2018)
+
+Vedkommende vil referere deg videre til ditt lokale DataCite-medlem. Du vil så få tilgang til DataCite-tjenesten for å lage permanente identifikatorer (DOIer) og for å registrere tilhørende metadata. Dersom du ikke har ditt eget brukernavn og passord, vil du fremdeles kunne eksportere til DataCites xml-format, men du kan ikke registrere DOIene dine med DataCite i  OJS. 
+
+Merk at passordet vil bli lagret i ren tekst, m.a.o. ikke kryptert, på grunn av DataCites krav for registrering.]]></message>
+	<message key="plugins.importexport.datacite.settings.form.username">Brukernavn (symbol)</message>
+	<message key="plugins.importexport.datacite.settings.form.usernameRequired">Legg in brukernavnet (symbolet) du fikk fra DataCite. Brukernavnet kan ikke inneholde kolon.</message>
+	<message key="plugins.importexport.datacite.settings.form.automaticRegistration.description">OJS vil overføre DOI-er automatisk til DataCite. Merk at dette kan ta noe tid å få behandlet etter publiseringen. Du kan velge alle uregisterte DOI-er.</message>
+	<message key="plugins.importexport.datacite.settings.form.testMode.description">Legg til et DataCite test-prefix for DOI-registeringen. Husk å fjerne dette alternativet før produksjonsfasen.</message>
+	<message key="plugins.importexport.datacite.senderTask.name">DataCites automatiske registrering</message>
+	<message key="plugins.importexport.datacite.cliUsage">Bruk:
+{$scriptName} {$pluginName} eksporterer [xmlFilnavn] [tiddskrift_sti] {issues|articles|galleys|suppfiles} objektsId1 [objektsId2] ...
+{$scriptName} {$pluginName} registrerer [tiddskrift_sti] {issues|articles|galleys|suppfiles} objekstId1 [objekttId2] ...</message>
+</locale>

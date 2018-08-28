@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.generic.tinymce.name">TinyMCE</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Dette programtillegget gjør at du får se på skjermen din hvordan innholdet vil se ut for leserne, ved hjelp av innholdsredigereren  <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>]]></message>
+	<message key="plugins.generic.tinymce.settings">Innstillinger</message>
+	<message key="plugins.generic.tinymce.pkpTags.listTags">Velg tag</message>
+	<message key="plugins.generic.tinymce.pkpTags.noneAvailable">Ingen tagger er tilgjengelige for dette feltet</message>
+	<message key="plugins.generic.tinymce.pkpTags.description">Du kan legge inn disse taggene:</message>
+	<message key="plugins.generic.tinymce.variables.principalContactName">Navn på kontaktperson ({$value})</message>
+	<message key="plugins.generic.tinymce.variables.principalContactEmail">Kontaktpersonens e-postadresse ({$value})</message>
+	<message key="plugins.generic.tinymce.variables.supportContactName">Navn på teknisk kontaktperson ({$value})</message>
+	<message key="plugins.generic.tinymce.variables.supportContactEmail">Den tekniske kontaktpersonens e-postadresse  ({$value})</message>
+	<message key="plugins.generic.tinymce.variables.supportContactPhone">Den tekniske kontaktpersonens telefonnummer ({$value})</message>
+</locale>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.reports.views.displayName">Se rapport</message>
+	<message key="plugins.reports.views.description">Dette programtillegget implementerer en CSV-rapport om hvor mange som har lest hver artikkel</message>
+	<message key="plugins.reports.views.articleId">Artikkel-ID</message>
+	<message key="plugins.reports.views.articleTitle">Tittel</message>
+	<message key="plugins.reports.views.datePublished">Publiseringsdato</message>
+	<message key="plugins.reports.views.abstractViews">Visninger av sammendraget</message>
+	<message key="plugins.reports.views.galleyViews">Totalt antall visninger av oppsett</message>
+</locale>

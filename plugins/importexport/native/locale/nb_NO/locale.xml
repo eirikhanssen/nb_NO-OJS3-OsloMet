@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.importexport.native.displayName">Lokal XML</message>
+	<message key="plugins.importexport.native.description">Dette programtillegget importerer og eksporterer artikler og utgaver i OJS' lokale XML-format</message>
+	<message key="plugins.importexport.native.import">Importer</message>
+	<message key="plugins.importexport.native.import.instructions">Last opp en XML-fil for import</message>
+	<message key="plugins.importexport.native.exportSubmissions">Eksporter artikler</message>
+	<message key="plugins.importexport.native.exportIssues">Eksporter utgaver</message>
+	<message key="plugins.importexport.native.results">Resultater</message>
+	<message key="plugins.inportexport.native.uploadFile">Last opp en fil under «Import» for å fortsette</message>
+	<message key="plugins.importexport.native.importComplete">Importen var vellykket. Disse elementene ble importert:</message>
+	<message key="plugins.importexport.native.cliUsage"><![CDATA[Bruk: {$scriptName} {$pluginName} [command] ...
+Kommandoer:
+    import [xmlFileName] [journal_path] [user_name] ...
+    eksport [xmlFileName] [journal_path] artikler [articleId1] [articleId2] ...
+    eksport [xmlFileName] [journal_path] artikler [articleId]
+    eksport [xmlFileName] [journal_path] utgaver [issueId1] [issueId2] ...
+    eksport [xmlFileName] [journal_path] utgaver [issueId]
+
+Ytterligere parametere kreves for import av data, avhenging av rotnoden i XML-dokumentet.
+Dersom rotnoden er <artikkel> eller <artikler>, må du legge inn flere parametre.
+
+Følgende formater aksepteres:
+
+{$scriptName} {$pluginName} import [xmlFileName] [journal_path] [user_name]
+    issue_id [issueId] section_id [sectionId]
+
+{$scriptName} {$pluginName} import [xmlFileName] [journal_path] [user_name]
+    issue_id [issueId] section_name [name]
+
+{$scriptName} {$pluginName} import [xmlFileName] [journal_path]
+    issue_id [issueId] section_abbrev [abbrev]]]></message>
+	<message key="plugins.importexport.native.cliError">Feil:</message>
+	<message key="plugins.importexport.native.error.unknownUser">Brukeren du spesifiserte, «{$userName}», finnes ikke</message>
+	<message key="plugins.importexport.native.error.unknownJournal">Tidsskriftstien du spesifiserte, «{$journalPath}», finnes ikke</message>
+	<message key="plugins.importexport.native.export.error.couldNotWrite">Kunne ikke skrive til filen «{$fileName}»</message>
+	<message key="plugins.importexport.native.exportSubmissionsSelect">Velg artikler</message>
+	<message key="plugins.importexport.native.error.unknownSection">Ukjent seksjon {$param}</message>
+	<message key="plugins.importexport.native.import.error.sectionTitleMismatch">Seksjonstitene «{$section1Title}» og «{$section2Title}» i utgaven «{$issueTitle}» stemte med ulike eksisterende tidsskriftseksjoner</message>
+	<message key="plugins.importexport.native.import.error.sectionTitleMatch">Seksjonstittelen «{$sectionTitle}» i utgaven «{$issueTitle}» stemte med en eksisterende tidsskriftssekjson, men en annen tittel i denne seksjonen stemmer ikke overens med en annen tittel i den eksisterende tidsskriftsseksjonen</message>
+	<message key="plugins.importexport.native.import.error.sectionAbbrevMismatch">Seksjonsforkortelsen «{$section1Abbrev}» og seksjonsforkortelsen «{$section2Abbrev}» i utgaven «{$issueTitle}» stemte overens med ulike eksisterende tidsskriftsseksjoner</message>
+	<message key="plugins.importexport.native.import.error.sectionAbbrevMatch">Seksjonsforkortelsen «{$sectionAbbrev}» i utgaven «{$issueTitle}» stemte overens med en eksisterende tidsskriftsseksjon, men en annen forkortelse av denne seksjonen stemmer ikke overens med en annen forkortelse av den eksisterende tidsskriftsseksjonen</message>
+	<message key="plugins.importexport.native.import.error.issueIdentificationMatch">Ingen eller flere enn en utgave stemmer overens med den oppgitte utgaveidentifikatoren {$issueIdentification}»</message>
+	<message key="plugins.importexport.native.import.error.issueIdentificationDuplicate">Eksisterende utgave med identiteten {$issueId} stemmer overens med utgaveidentifikatoren «{$issueIdentification}». Denne utgaven vil ikke bli modifisert, men artiklene vil bli lagt til.</message>
+	<message key="plugins.importexport.native.import.error.issueIdentificationMissing">«{$articleTitle}» mangler utgaveidentifikatorelementet</message>
+	<message key="plugins.importexport.native.import.error.publishedDateMissing">Artikkelen «{$articleTitle}» er i en utgave, men har ingen publiseringsdato</message>
+</locale>

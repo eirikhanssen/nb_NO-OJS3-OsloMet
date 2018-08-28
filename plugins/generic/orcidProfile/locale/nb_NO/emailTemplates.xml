@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * emailTemplateData.xml
+  *
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+<email_texts locale="nb_NO">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>ORCID for innleveringen</subject>
+		<body><![CDATA[Kjære {$authorName},
+
+Du har blitt oppgitt som medforfatter av «{$articleTitle}», som er levert inn til <i>{$journalName}</i>.
+
+For å bekrefte forfatterskapet ditt, legg til ORCID-identiteten din knyttet til denne innleveringen ved å besøke siden som er lenket til under.
+{$authorOrcidUrl}
+
+Ta kontakt om du har noen spørsmål.
+
+{$editorialContactSignature}]]></body>
+		<description>Denne e-postmalen brukes for å samle forfatternes ORCID-identiteter.</description>
+	</email_text>
+</email_texts>

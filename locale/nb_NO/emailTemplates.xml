@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * locale/nb_NO/emailTemplates.xml
+  *
+  * Copyright (c) 2014-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  *
+  -->
+
+<email_texts locale="nb_NO">
+	<email_text key="PASSWORD_RESET_CONFIRM">
+		<subject>Bekreftelse om fornying av passord</subject>
+		<body><![CDATA[Vi har mottatt en forespørsel om å få fornyet passordet ditt til nettstedet for {$siteTitle}.<br />
+<br />
+Hvis du ikke har sendt oss en slik forespørsel og ikke vil endre passordet ditt, ignorer denne e-posten. Hvis du ønsker nytt passord, klikk på lenken nedenfor.<br />
+<br />
+Forny passordet: {$url}<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes til registrerte brukere når de melder fra om at de har glemt passordet sitt, eller at de ikke klarer å logge inn. Den gir en URL-lenke brukeren kan følge for å fornye passordet sitt.</description>
+	</email_text>
+	<email_text key="PASSWORD_RESET">
+		<subject>Fornying av passord</subject>
+		<body><![CDATA[Passordet ditt til nettstedet for {$siteTitle} er nå fornyet. Ta godt vare på brukernavnet og passordet. Du vil trenge dem for oppgavene du skal utføre på nettstedet.<br />
+<br />
+Ditt brukernavn: «{$username»}<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes til en bruker som har fornyet passordet sitt som beskrevet i PASSWORD_RESET_CONFIRM e-posten.</description>
+	</email_text>
+	<email_text key="USER_REGISTER">
+		<subject>Du er nå registrert som bruker</subject>
+		<body><![CDATA[Takk for at du har registrert deg som bruker av nettstedet for <i>{$contextName}</i>. Ta godt vare på brukernavnet og passordet, som du vil trenge hver gang du skal utføre brukeroppgaver på nettstedet. Du kan når som helst be om å bli fjernet fra brukerlisten. Ta i tilfelle kontakt med meg. <br />
+<br />
+Brukernavn: {$username}<br />
+Passord: {$password}<br />
+<br />
+Vennlig hilsen<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes for å ønske nyregistrerte brukere velkommen som brukere av nettstedet, og gir dem opplysning om brukernavn og passord.</description>
+	</email_text>
+	<email_text key="PUBLISH_NOTIFY">
+		<subject>Ny utgave publisert</subject>
+		<body><![CDATA[Til våre lesere:<br />
+<br />
+<i>{$contextName}</i> har nettopp publisert en ny utgave på nettstedet <a href="{$contextUrl}">{$contextUrl}</a>. Her kan du lese innholdsfortegnelsen, før du går videre til nettstedet for å se nærmere på innholdet.<br />
+<br />
+Takk for interessen du viser for arbeidet vårt.<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes til registrerte brukere som har bedt om slikt varsel, via «Varsle brukere»-lenken på redaktørens brukerside. På denne måten får registrerte brukere varsel om den nye utgivelsen, og inviteres til å besøke nettstedet via en vedlagt URL-lenke.</description>
+	</email_text>
+	<email_text key="LOCKSS_EXISTING_ARCHIVE">
+		<subject><![CDATA[Anmodning om arkivering av <i>{$contextName}<i>]]></subject>
+		<body><![CDATA[Kjære [universitetsbibliotekar]<br />
+<br />
+<i>{$contextName}</i> &amp;lt;<a href="{$contextUrl}">{$contextUrl}</a>&amp;gt; er et tidsskrift der en av deres vitenskapelig ansatte, [oppgi navn], har påtatt seg å være [oppgi rolletittel]. Tidsskriftet ønsker å etablere et LOCKSS-arkiv (Lots of Copies Keep Stuff Safe), i samarbeid med flere universitetsbibliotek.<br />
+<br />
+[Gi en kort beskrivelse av tidsskriftet]<br />
+<br />
+URL til LOCKSS Publisher Manifest som gjelder for tidsskriftet vårt er: <a href="{$contextUrl}">{$contextUrl}</a>/gateway/lockss<br />
+<br />
+Vi forstår det slik at biblioteket deres allerede deltar i et LOCKSS-samarbeid. Hvis det er behov for det, bidrar vi gjerne med ytterligere metadata for å få registrert tidsskriftet vårt med deres versjon av LOCKSS.<br />
+<br />
+Vennlig hilsen,<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten ber ansvarshavende bibliotekar ved et LOCKSS arkiv om å vurdere å innlemme tidsskriftet i deres samling. E-posten oppgir URL-lenken til tidsskriftets LOCKSS Publisher Manifest.</description>
+	</email_text>
+	<email_text key="LOCKSS_NEW_ARCHIVE">
+		<subject><![CDATA[Anmodning om arkivering av <i>{$contextName}<i>]]></subject>
+		<body><![CDATA[Kjære [universitetsbibliotekar]<br />
+<br />
+<i>{$contextName}</i> &amp;lt;<a href="{$contextUrl}">{$contextUrl}</a>&amp;gt;, er et tidsskrift der en av deres vitenskapelig ansatte, [oppgi navn], har påtatt seg å være [oppgi rolletittel]. Tidsskriftet ønsker å etablere et LOCKSS-arkiv (Lots of Copies Keep Stuff Safe), i samarbeid med flere universitetsbibliotek.<br />
+<br />
+[Gi en kort beskrivelse av tidsskriftet]<br />
+<br />
+LOCKSS-programmet &amp;lt;http://lockss.org/&amp;gt; er et internasjonalt initiativ for bibliotek og utgivere. LOCKSS er et system for distribuert lagring og arkivering av digitalt innhold (for mer informasjon, se under). Programvaren kan kjøres fra en vanlig PC, og er gratis. Det er enkelt å få systemet på nett, og det krever ikke mye løpende vedlikehold.<br />
+<br />
+Det er i vår interesse at tidsskriftet vårt blir arkivert og distribuert ved hjelp av LOCKSS. Derfor oppfordrer vi dere til å bli med i LOCKSS samarbeidet. Dette samler og bevarer digitale publikasjoner av deres egne og andre forskere over hele verden. Besøk LOCKSS eget nettsted for mer informasjon om systemet. Vi ser fram til å høre fra dere om dere kan støtte en slik arkivering av tidsskriftet vårt.<br />
+<br />
+Vennlig hilsen,<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten oppfordrer mottakeren til å delta i LOCKSS samarbeidet, og å innlemme tidsskriftet i sin digitale samling. E-posten gir informasjon om LOCKSS initiativet, og om hvordan man kan bli med.</description>
+	</email_text>
+	<email_text key="SUBMISSION_ACK">
+		<subject>Vi har mottatt innleveringen din</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Takk for at du har sendt inn «{$submissionTitle}» til <i>{$contextName}</i>. Du kan følge innleveringen gjennom den redasjonelle prosessen ved å logge deg inn på tidsskriftets nettsted:<br /> 
+<br />
+Innleveringens URL: {$submissionUrl}<br />
+Brukernavn: {$authorUsername}<br />
+<br />
+Ta kontakt med meg om du har spørsmål. Takk for at du velger tidsskriftet vårt som kanal for å publisere arbeidet ditt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Når denne funksjonen er slått på, sendes denne e-posten automatisk til forfattere, så snart de har fullført prosedyren for innlevering til tidsskriftet. E-posten gir informasjon om å følge innleveringen gjennom den redaksjonelle prosessen, og takker forfatteren for bidraget.</description>
+	</email_text>
+	<email_text key="SUBMISSION_UNSUITABLE">
+		<subject>Avvisning pga. faglig profil</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />Takk for innleveringen av «{$submissionTitle}». Redaksjonen har dessverre funnet at dette bidraget ikke passer med det faglige profilen for <i>{$contextName}</i>. Du kan bli bedre kjent med tidsskriftet om du ser ser gjennom tidligere utgaver og beskrivelsen av tidsskriftet vårt på nettstedet vårt under «Om» . Andre tidsskrift kan ha en faglig profil som passe bedre for publisering av dette bidraget.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes til en forfatter hvis innlevering ikke passer til tidsskriftets faglige profil.</description>
+	</email_text>
+	<email_text key="SUBMISSION_COMMENT">
+		<subject>Kommentar til manuskript</subject>
+		<body><![CDATA[{$name}:<br />
+<br />
+{$commentName} har skrevet inn en kommentar til manuskriptet &quot;{$submissionTitle}&quot; i {$contextName}:<br />
+<br />
+{$comments}]]></body>
+		<description>Denne e-posten varsler dem som er involvert i redigeringen av et manuskript om at en ny kommentar til manuskriptet er skrevet inn.</description>
+	</email_text>
+	<email_text key="SUBMISSION_DECISION_REVIEWERS">
+		<subject>Redaksjonell beslutning om "{$submissionTitle}"</subject>
+		<body><![CDATA[Fordi du har vært med på å vurdere manuskriptet &quot;{$submissionTitle},&quot; for publisering i {$contextName}, sender jeg deg herved de samme uttalelsene og beslutningene som forfatteren har mottatt. Samtidig vil jeg igjen takke for at du bidrar til arbeidet med  {$contextName}.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+{$comments}]]></body>
+		<description>Denne e-posten varsler fagfellene som har vurdert et manuskript om at den redaksjonelle prosessen for manuskriptet er fullført. E-posten omfatter informasjon om artikkelen, og om redaktørens beslutning, og takker dessuten fagfellene for deres innsats.</description>
+	</email_text>
+	<email_text key="EDITOR_ASSIGN">
+		<subject>Redaksjonelt oppdrag</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Du er satt opp til å føre innleveringen «{$submissionTitle}», som er innlevert til <i>{$contextName}</i>, gjennom den redaksjonelle prosessen i kraft av din rolle som seksjonsredaktør.<br />
+<br />
+Innleveringens URL: {$submissionUrl}<br />
+Brukernavn: {$editorUsername}<br />
+<br />
+Vennlig hilsen,<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten varsler en seksjonsredaktør om at redaktør har oppnevnt seksjonsredaktøren til å føre en innlevering gjennom den redaksjonelle prosessen. E-posten gir informasjon om innleveringen, og om tilgangen til tidsskriftets nettsted.</description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST">
+		<subject>Forespørsel om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Vårt tidsskrift <i>{$contextName}</i> har fått tilsendt manuskriptet «{$submissionTitle}». Vi håper du er villig til å fagfellevurdere denne innleveringen, fordi vi mener dette kan passe med din faglige kompetanse. Du kan se et sammendrag nedenfor.<br />
+<br />
+Du kan logge inn på tidsskriftets nettsted innen {$responseDueDate} for å akseptere elle avslå forespørselen. Hvis du tar på deg oppdraget, bruker du nettstedet for å skrive inn fagfellevurderingen din, og for å registrere den anbefalingen du gir oss. Adressen til nettstedet er <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+Fristen for fagfellevurderingen er satt til {$reviewDueDate}.<br />
+<br />
+Hvis har mistet eller glemt brukernavnet og passordet ditt til tidsskriftets nettsted, kan du bruke denne lenken for å fornye passordet (som du så får tilsendt i en e-post, sammen med brukernavnet ditt). <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+På forhånd takk.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+«{$submissionTitle}»<br />
+<br />
+{$submissionAbstract}]]></body>
+		<description>I denne e-posten ber seksjonsredaktøren en fagfelle om å akseptere eller avslå oppdraget med å fagfellevurdere en innlevering. E-posten gir informasjon om 1) innleveringen (også tittel og sammendrag), 2) fristen for oppdraget og 3) informasjon om pålogging og tilgang til innleveringen. Denne e-posten brukes når «Standard fagfellevurdering» er valgt i «Tidsskriftoppsett, Trinn 2». (Ellers: se e-posten REVIEW_REQUEST_ATTACHED.)</description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST_ONECLICK">
+		<subject>Forespørsel om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Jeg tar kontakt med deg i forbindelse med at tidsskriftet <i>{$contextName}</i> har fått tilsendt manuskriptet «{$submissionTitle}». Jeg tror du kunne vært en god fagfelle for innleveringen. Du ser sammendraget under. <br />
+<br />
+Du kan svare på forespørselen ved å logge inn på tidsskriftets nettsted. Vi hadde satt pris på om du gjorde det innen {$responseDueDate}. Hvis du påtar deg oppdraget, kan du bruke nettstedet for å få tilgang til manuskriptet, samt til å skrive inn fagfellevurderingen og anbefalingen din.<br />
+<br />
+Fristen for fagfellevurderingen er satt til {$reviewDueDate}.<br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+«{$submissionTitle}»<br />
+<br />
+{$submissionAbstract}]]></body>
+		<description><![CDATA[I denne e-posten ber seksjonsredaktøren en fagfelle om å akseptere eller avslå oppdraget med å fagfellevurdere en innlevering. E-posten gir informasjon om 1) innleveringen (inkl. tittel og sammendrag), 2) en frist for oppdraget og 3) informasjon om pålogging og tilgang til innleveringen. Denne e-posten brukes når *Standard fagfellevurdering er valgt i «Administrasjon» > «Innstillinger» > «Arbeidsflyt» > «Fagfellevurdering» > "Slå på ettklikks tilgang for fagfellene."]]></description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST_ATTACHED">
+		<subject>Forespørsel om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Vårt tidsskrift <i>{$contextName}</i> har fått tilsendt manuskriptet &quot;{$submissionTitle}&quot;. Vi håper du er villig til å fagfellevurdere innleveringen, fordi vi tror du har rett faglig kompetanse. Tidsskriftets retningslinjer for fagfellevurdering følger nedenfor. Artikkelen er vedlagt. Dersom du tar på deg oppdraget, sender du fagfellevurderingen og anbefalingen din til meg via e-post. Fristen for dette er i tilfelle {$reviewDueDate}.<br />
+<br />
+Vi hadde satt pris på om du kunne gi beskjed innen {$responseDueDate} om du kan ta på deg oppdrage eller ikket.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+Retningslinjer for fagvurdering<br />
+<br />
+{$reviewGuidelines}<br />]]></body>
+		<description>I denne e-posten ber seksjonsredaktøren en fagfelle om å akseptere eller avslå oppdraget med å fagfellevurdere en innlevering, som er vedlagt. Denne e-posten brukes når «Fagvurdering med e-post-vedlegg» er valgt i «Tidsskriftoppsett, Trinn 2.» (Ellers: se e-posten REVIEW_REQUEST.)</description>
+	</email_text>
+	<email_text key="REVIEW_CANCEL">
+		<subject>Fagfellevurdering avlyst</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Vi har dessverre bestemt oss for å avlyse fagfellevurderingen av innleveringen «{$submissionTitle}», som vi tidligere har bedt deg om å påta deg for <i>{$contextName}</i>. Vi beklager bryderiet, men håper at vi fortsatt kan be deg om å ta på deg fagfellevurdering for oss i fremtiden.<br />
+<br />
+Ta kontakt med meg hvis du har spørsmål.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>I denne e-posten fra seksjonsredaktøren til en fagfelle, avlyses en fagfellevurdering som tidligere er bestilt.</description>
+	</email_text>
+	<email_text key="REVIEW_CONFIRM">
+		<subject>Aksepter forespørsel om fagfellevurdering</subject>
+		<body><![CDATA[Redaktorer:<br />
+<br />
+Takk for forespørselen om å fagfellevurdere innleveringen &quot;{$submissionTitle},&quot; for <i>{$contextName}</i>. Jeg har tid og anledning til å fagfelle den, og tar sikte på å ferdigstille fagfellevurderingen innen {$reviewDueDate}, om ikke før.<br />
+<br />
+{$reviewerName}]]></body>
+		<description>Denne e-posten sendes fra en fagfelle til seksjonsredaktøren som svar på «Forespørsel om fagfellevurdering» for å varsle seksjonsredaktøren om at forespørselen er mottatt og akseptert, og at fagfellevurderingen vil bli ferdigstilt innen angitt frist.</description>
+	</email_text>
+	<email_text key="REVIEW_DECLINE">
+		<subject>Avslå forespørsel om fagfellevurdering</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Jeg kan dessverre ikke påta meg oppdraget med å vurdere innleveringen «{$submissionTitle}» for <i>{$contextName}</i>. Jeg takker for forespørselen. Ta kontakt ved en senere anledning.<br />
+<br />
+{$reviewerName}]]></body>
+		<description>Denne e-posten sendes av en fagfelle til seksjonsredaktøren som svar på en forespørsel om fagfellevurdering, for å varsle redaktøren om at oppdraget er avslått.</description>
+	</email_text>
+	<email_text key="REVIEW_ACK">
+		<subject>Bekreftelse på fullført fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Takk for at du har fullført fagfellevurderingen din av innleveringen «{$submissionTitle}» for <i>{$contextName}</i>. Vi setter stor pris på at du bidrar til å sikre den faglige kvaliteten i våre publikasjoner.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes av en seksjonsredaktør for å bekrefte at fagfellevurderingen er mottatt, og takke fagfellen for innsatsen.</description>
+	</email_text>
+	<email_text key="REVIEW_REMIND">
+		<subject>Påminnelse om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Denne e-posten sendes for å minne deg på at du har tatt på deg å fagfellevurdere innleveringen «{$submissionTitle}» for <i>{$contextName}</i>. Jeg minner om at fristen var satt til {$reviewDueDate}, og ser fram til å motta vurderingen din så snart den er klar.<br />
+<br />
+Hvis har mistet eller glemt brukernavnet og passordet ditt til tidsskriftets nettsted, kan du bruke denne lenken for å fornye passordet (som du så får tilsendt i en e-post, sammen med brukernavnet ditt): <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Kunne du bekrefte om du fortsatt regner med å fullføre fagfellevurderngen for tidsskriftet vårt? Jeg ser fram til å høre fra deg.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes av en seksjonsredaktør til en fagfelle for å minne om at fagfellevurderingen ventes ferdigstilt innen fristen.</description>
+	</email_text>
+	<email_text key="REVIEW_REMIND_ONECLICK">
+		<subject>Påminnelse om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Jeg sender denne e-posten for å minne deg på at du har tatt på deg å fagfellevurdere innleveringen «{$submissionTitle}» for <i>{$contextName}</i>. Jeg minner om at fristen for oppdraget var satt til {$reviewDueDate}, og ser fram til å motta vurderingen din så snart den er klar.<br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Kunne du bekrefte om du fortsatt regner med å fullføre dette vurderingsoppdraget for tidsskriftet vårt? Jeg ser fram til å høre fra deg.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes av en seksjonsredaktør til en fagfelle for å minne om at fagfellevurderingen ventes ferdigstilt innen tidsfristen.</description>
+	</email_text>
+	<email_text key="REVIEW_REMIND_AUTO">
+		<subject>Påminnelse om fagfellevurdering (automatisk e-post)</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Dette er en automatisk generert e-post som sendes for å minne deg på at du har tatt på deg å fagfellevurdere «{$submissionTitle}» for <i>{$contextName}</i>. Jeg minner om at fristen for oppdraget var satt til {$reviewDueDate}. Jeg ser fram til å motta fagfellevurderingen din, så snart du har den klar.<br />
+<br />
+Hvis har mistet eller glemt brukernavnet og passordet ditt til tidsskriftets nettsted, kan du bruke lenken under for å fornye passordet ditt. Du vil få det tilsendt i en e-post, sammen med brukernavnet ditt. <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Kunne du bekrefte om du fortsatt regner med å fullføre fagfellevurderingen for tidsskriftet vårt? Jeg ser fram til å høre fra deg.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description><![CDATA[Denne e-posten sendes automatisk til fagfellen når tidsfristen for fagfellevurdering utløper (se: Tid for fagfellevurdering under Innstillinger > Arbeidsflyt > Fagfellevurdering) og når ettklikks fagfelletilgang er slått av. Planlagte oppgaver må være slått på og konfiguert (se konfigurasjonsfilen for nettstedet).]]></description>
+	</email_text>
+	<email_text key="REVIEW_REMIND_AUTO_ONECLICK">
+		<subject>Påminnelse om fagfellevurdering (automatisk e-post)</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Dette er en automatisk generert e-post som sendes for å minne deg på at du har tatt på deg å fagfellevurdere innleveringen «{$submissionTitle}» for <i>{$contextName}</i>. Jeg minner om at fristen for oppdraget var satt til {$reviewDueDate}. Jeg ser fram til å motta fagfellevurderingen din, så snart du har den klar.<br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Kunne du bekrefte om du fortsatt regner med å fullføre fagfellevurderingen for tidsskriftet vårt? Jeg ser fram til å høre fra deg.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes automatisk til fagfellen når tidsfristen for en fagfellevurdering utløper og ettklikks fagfelletilgang er slått på (se Valgmuligheter for fagfellevurdering  under Tidsskriftoppsett, Trinn 2). «Planlagte oppgaver» må være slått på og konfigurert (kontakt nettstedsadministrator, og se konfigurasjonsfilen for nettstedet).</description>
+	</email_text>
+	<email_text key="COPYEDIT_REQUEST">
+		<subject>Forespørsel om språkvask</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Takk for at du har sagt deg villig til å bidra til arbeidet vårt. Innleveringen «{$submissionTitle}»; for <i>{$contextName}</i> er klar for språkvask. Du finner innleveringen på tidsskriftets nettsted, sammen med vår «Instruks for språkvask.<br />
+<br />
+1. Klikk på innleveringens URL under
+2. Åpne filer som er tilgjengelige under «Filer til språkvask». Legg til eventuelle kommentarer i diskusjonsfeltet.
+3. Lagre de språkvaskede filene og last dem opp.
+4. Informer redaktøren at alle filene har blitt bearbeidet og at produksjonen kan starte.<br/>
+<br />
+{$contextName} URL: <a href="{$submissionUrl}">{$submissionUrl}</a><br />
+Brukernavn: {$participantUsername}<br />
+<br />
+Hvis du ikke har anledning til å påta deg dette oppdraget, eller har ytterligere spørsmål, ta kontakt med meg.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes av en seksjonsredaktør til en språkvasker for å sette i gang arbeidet med språkvasken. E-posten gir informasjon om innleveringen, og om hvordan språkvaskeren får tilgang til det.</description>
+	</email_text>
+	<email_text key="COPYEDIT_COMPLETE">
+		<subject>Manusredigeringen er fullført</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Jeg har nå fullført første runde med manusredigering av  manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}. Nå kan forfatter og redaktør gjennomgå mine spørsmål og forslag til endringer.<br />
+<br />
+Jeg vil samtidig benytte anledningen til å takke for oppdraget,<br />
+{$participantName}]]></body>
+	</email_text>
+	<email_text key="COPYEDIT_ACK">
+		<subject>Bekrefter at du har fullført manusredigering</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Takk for at du har manusredigert manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}. Vi setter stor pris på at du på denne måten bidrar til å sikre kvaliteten i våre publikasjoner.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes av Seksjonsredaktøren til manuskriptets Manusredaktør for å bekrefte at Manusredaktøren har fullført oppdraget, og takke for det utførte arbeidet.</description>
+	</email_text>
+	<email_text key="COPYEDIT_AUTHOR_REQUEST">
+		<subject>Ditt redigerte manuskript - til gjennomgang</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi har nå redigert ditt manuskript &quot;{$submissionTitle}&quot; for {$contextName}. Vi ber deg nå om at du går inn på tidsskriftets nettsted (lenke nedenfor) for å gjennomgå forslagene til endringer og svare på redaktørens spørsmål til forfatteren. Der vil du også finne vår Instruks for manusredigering. Last ned og åpne filen til Første manusredigering. Etter at du har gjennomgått og bearbeidet det redigerte manuskriptet, laster du opp den bearbeidete filen til redigeringsfase 2, og sender e-posten UTFØRT til redaktøren.<br />
+<br />
+Vennligst merk deg at dette er din aller siste mulighet til å gjøre vesentlige endringer i manuskriptet. Riktignok vil du senere også bli bedt om å korrekturlese de ferdig oppsatte sidene, men i den produksjonsfasen er det bare formatfeil og typografiske feil som kan korrigeres.<br />
+<br />
+Manuskript URL: <a href="{$submissionUrl}">{$submissionUrl}</a><br />
+<br />
+Hvis du ikke har anledning til å utføre dette arbeidet nå, eller hvis du har ytterligere spørsmål, ber jeg om at du kontakter meg. Jeg vil med det samme takke deg for at du bidrar til arbeidet vårt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes av Seksjonsredaktøren for å be manuskriptets Forfatter om å gjennomgå de revisjonene manusredaktøren har bedt om. E-posten gir tilgangsinformasjon for manuskriptet, og varsler Forfatteren om at dette er siste mulighet til å gjøre vesentlige endringer i manuskriptet.</description>
+	</email_text>
+	<email_text key="COPYEDIT_AUTHOR_COMPLETE">
+		<subject>Gjennomgang av revidert manuskript er fullført</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Jeg har nå gått igjennom de revisjonene manusredaktøren har bedt om for mitt manuskript &quot;{$submissionTitle}&quot; for {$contextName}, og det er nå klart for siste runde manusredigering før layoutredigeringen settes i gang.<br />
+<br />
+Takk for deres bidrag til arbeidet mitt,<br />
+{$authorName}]]></body>
+		<description>Denne e-posten sendes av Forfatteren til Seksjonsredaktøren for å varsle om at Forfatterens manusredigering er fullført.</description>
+	</email_text>
+	<email_text key="COPYEDIT_AUTHOR_ACK">
+		<subject>Bekrefter at du har fullført manusrevisjon</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Takk for at du har fullført gjennomgangen din av revisjonsforslagene til ditt manuskript &quot;{$submissionTitle}&quot; for {$contextName}. Vi ser fram til å publisere arbeidet ditt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes fra Seksjonsredaktøren til Forfatteren for å bekrefte at forfatterens revisjon er gjennomført, og for å takke for innsatsen.</description>
+	</email_text>
+	<email_text key="COPYEDIT_FINAL_REQUEST">
+		<subject>Manusredigering - siste gjennomgang</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Forfatteren og redaktøren har nå gått igjennom revisjonsforslagene til manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}. Nå er tiden inne til å gjøre klar manuskriptet i en &quot;renkopi&quot; for layout. Vi ber om at du foretar siste gjennomgang og rensing av manuskriptfilen, ved å bekrefte de endringene som er akseptert, og fjerne alle andre merknader, markeringer og overflødige formateringer. Manuskriptfilen som sendes til layoutredigering skal være så ren som mulig.<br />
+<br />
+Manuskript URL: <a href="{$submissionUrl}">{$submissionUrl}</a><br />
+Brukernavn: {$participantUsername}<br />
+<br />
+{$contextName} takker deg for innsatsen,<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Manusredaktøren bestiller siste gjennomgang og klargjøring av manuskriptet, før det kan sendes til layoutredigering.</description>
+	</email_text>
+	<email_text key="COPYEDIT_FINAL_COMPLETE">
+		<subject>Manusredigering - siste gjennomgang fullført</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Jeg har nå gjort klar en ren og ferdig redigert filversjon av manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}. Manuskriptet er nå klart for layoutredigering.<br />
+<br />
+{$participantName}]]></body>
+		<description>Denne e-posten fra Manusredaktøren varsler Seksjonsredaktøren om at siste manusredigering av manuskriptet er fullført, og at layoutredigeringen kan settes i gang.</description>
+	</email_text>
+	<email_text key="COPYEDIT_FINAL_ACK">
+		<subject>Bekrefter at siste manusgjennomgang er fullført</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Takk for at du har fullført siste manusredigering av manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}. Framstillingen av en slik god &quot;renkopi&quot; for layoutredigering er et viktig trinn i den redaksjonelle prosessen.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Manusredaktøren bekrefter at siste manusredigering er fullført, og takker for innsatsen.</description>
+	</email_text>
+	<email_text key="LAYOUT_REQUEST">
+		<subject>Forespørsel om oppsett</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Takk at du bidrar til arbeidet med <i>{$contextName}</i>. Innleveringen «{$submissionTitle}» skal nå settes opp.<br />
+<br />
+1. Klikk på innleveringens URL: <a href="{$submissionLayoutUrl}">{$submissionLayoutUrl}</a><br />
+2. Logg deg inn på tidsskriftet og bruk de produksjonsklare filene for å lage et oppsett som følger tidsskriftets retningslinjer.<br />
+3. Last opp oppsette til seksjonen for oppsettfiler.<br />
+4. Gi beskjed til redaktøren om at oppsettet er lastet opp og klart via produksjonsdiskusjonen.<br />
+
+<i>{$contextName}<i>: {$contextUrl}<br />
+Innleveringens: {$submissionLayoutUrl}<br />
+Brukernavn: {$participantUsername}<br />
+<br />
+Ta kontakt dersom du ikke har anledning til å utføre dette arbeidet, eller hvis du har spørsmål. <br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra seksjonsredaktøren til layoutredaktøren bestiller oppsett for en innlevering. E-posten gir informasjon om innleveringen, og om tilgang til den.</description>
+	</email_text>
+	<email_text key="LAYOUT_COMPLETE">
+		<subject>Oppsett ferdigstilt</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Sidene til innleveringen «{$submissionTitle}» er nå satt opp for <i>{$contextName}</i>, og er klare for korrekturlesing.<br />
+<br />
+Ta kontakt om du har noen spørsmål.<br />
+<br />
+{$participantName}]]></body>
+		<description>Denne e-posten fra layoutredaktøren til seksjonsredaktøren varsler om at oppsettet er ferdigstilt.</description>
+	</email_text>
+	<email_text key="LAYOUT_ACK">
+		<subject>Bekrefter at layoutredigering er fullført</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Takk for at du har satt opp sidene til manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}. Du har med dette gitt et viktig bidrag til publiseringsarbeidet vårt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Layoutredaktøren bekrefter at layoutredigeringen er fullført, og takker layoutredaktøren for innsatsen.</description>
+	</email_text>
+	<email_text key="PROOFREAD_AUTHOR_REQUEST">
+		<subject>Sluttkorrektur av manuskript (Forfatter)</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi ber med dette om at du leser sluttkorrektur på de oppsatte sidene for ditt manuskript  &quot;{$submissionTitle}&quot; for {$contextName}. For å få tilgang til den aktuelle manuskriptfilen ber vi deg om å logge inn på tidsskriftets nettsted med lenken nedenfor. Bruk deretter VIS KORREKTUR-lenken for å få se manuskriptsidene slik de vil bli publisert. Vi minner om at det bare er formatfeil og typografiske feil som kan korrigeres i denne produksjonsfasen. Vi ber deg om å følge vår Instruks for korrekturlesing. Oppgi slike feil i boksen som blir hentet fram av lenken Korrekturlesing: rettelser.<br />
+<br />
+Manuskript URL: {$submissionUrl}<br />
+<br />
+Hvis du ikke har anledning til å utføre dette arbeidet nå, eller hvis du har ytterligere spørsmål, ber jeg om at du kontakter meg. Jeg vil med det samme takke deg for at du bidrar til arbeidet vårt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Forfatteren varsler om at de ferdig oppsatte sidene er klare for korrekturlesing. E-posten gir informasjon om manuskriptfilen, og om hvordan forfatteren får tilgang til den.</description>
+	</email_text>
+	<email_text key="PROOFREAD_AUTHOR_COMPLETE">
+		<subject>Sluttkorrektur gjennomført (Forfatter)</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Jeg har nå gjennomført min sluttkorrektur av mitt manuskript &quot;{$submissionTitle}&quot; for {$contextName}. Manuskriptfilen er nå klar for endelig korrekturlesing av korrekturleseren og layoutredaktøren.<br />
+<br />
+{$authorName}]]></body>
+		<description>Denne e-posten fra Forfatteren til Korrekturleseren og Redaktøren varsler dem om at Forfatteren har gjennomført sin korrekturlesing. De vil finne detaljene som kommentarer fra forfatteren til manuskriptfilen.</description>
+	</email_text>
+	<email_text key="PROOFREAD_AUTHOR_ACK">
+		<subject>Bekrefter gjennomført sluttkorrektur (Forfatter)</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Takk for at du har gjennomført sluttkorrektur av ditt manuskript &quot;{$submissionTitle}&quot; før publisering i {$contextName}. Vi ser nå fram til å publisere arbeidet ditt om ikke lenge.<br />
+<br />
+Hvis du har krysset av på din brukerside for å få e-post varsel når ny utgave blir publisert, vil du få innholdsfortegnelsen til nye utgaver av tidsskriftet så snart de blir utgitt. Hvis du har ytterligere spørsmål, ber jeg om at du kontakter meg.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Forfatteren bekrefter at forfatteren har gjennomført sin sluttkorrektur, og takker for innsatsen.</description>
+	</email_text>
+	<email_text key="PROOFREAD_REQUEST">
+		<subject>Forespørsel om korrekturlesning</subject>
+		<body><![CDATA[{$proofreaderName}:<br />
+<br />
+Jeg ber deg med dette om å lese korrektur på de oppsatte sidene for manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}.<br />
+<br />
+Manuskript URL: {$submissionUrl}<br />
+Brukernavn: {$proofreaderUsername}<br />
+<br />
+Hvis du ikke har anledning til å utføre dette arbeidet nå, eller hvis du har ytterligere spørsmål, ber jeg om at du kontakter meg. Jeg vil med det samme takke deg for at du bidrar til arbeidet vårt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Korrekturleseren bestiller korrekturlesning av manuskriptet. E-posten gir informasjon om manuskriptfilen, og om hvordan forfatteren får tilgang til den.</description>
+	</email_text>
+	<email_text key="PROOFREAD_COMPLETE">
+		<subject>Korrektur gjennomført</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Jeg har nå gjennomført korrektur av manuskriptet &quot;{$submissionTitle},&quot; for {$contextName}. Manuskriptfilen er nå klar for layoutredaktørens endelige korrektur.<br />
+<br />
+{$proofreaderName}]]></body>
+		<description>Denne e-posten fra Korrekturleseren til Seksjonsredaktøren varsler om at korrekturen er gjennomført.</description>
+	</email_text>
+	<email_text key="PROOFREAD_ACK">
+		<subject>Bekrefter gjennomført korrektur</subject>
+		<body><![CDATA[{$proofreaderName}:<br />
+<br />
+Takk for at du har gjennomført korrektur av manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}. Med dette arbeidet har du gitt et viktig bidrag til publiseringsarbeidet vårt: takk for innsatsen.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Korrekturleseren bekrefter at korrekturen er gjennomført, og takker for innsatsen.</description>
+	</email_text>
+	<email_text key="PROOFREAD_LAYOUT_REQUEST">
+		<subject>Forespørsel om korrektur (Layoutredaktør)</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Vi ber med dette om at du utfører de rettelsene korrekturlesningen har påpekt behov for, i manuskriptet &quot;{$submissionTitle}&quot; for {$contextName}.<br />
+<br />
+Manuskript URL: {$submissionUrl}<br />
+Brukernavn: {$participantUsername}<br />
+<br />
+Hvis du ikke har anledning til å utføre dette arbeidet nå, eller hvis du har ytterligere spørsmål, ber jeg om at du kontakter meg. Jeg vil med det samme takke deg for at du bidrar til arbeidet vårt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Layoutredaktøren varsler om at manuskriptfilen er klar for siste feilretting etter korrekturlesningen. E-posten gir informasjon om manuskriptfilen, og om hvordan layoutredaktøren får tilgang til den.</description>
+	</email_text>
+	<email_text key="PROOFREAD_LAYOUT_COMPLETE">
+		<subject>Korrektur ferdigstilt (Layoutredaktør)</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Sidekorrekturen til manuskriptet &quot;{$submissionTitle}&quot; er nå ferdigstilt etter korrektur for {$contextName}. Manuskriptfilen er med dette klar til publisering.<br />
+<br />
+{$participantName}]]></body>
+		<description>Denne e-posten fra Layoutredaktøren til Seksjonsredaktøren varsler om at de siste korrigeringene i manuskriptfilen er gjennomført, og at den dermed er klar for publisering.</description>
+	</email_text>
+	<email_text key="PROOFREAD_LAYOUT_ACK">
+		<subject>Bekrefter ferdigstilt korrektur (Layoutredaktør)</subject>
+		<body><![CDATA[{$participantName}:<br />
+<br />
+Takk for at du har ferdigstilt sidekorrekturen til manuskriptet &quot;{$submissionTitle}&quot; for publisering i {$contextName}. Med dette arbeidet har du gitt et viktig bidrag til publiseringsarbeidet vårt: takk for innsatsen.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra Seksjonsredaktøren til Layoutredaktøren bekrefter at manuskriptfilen er ferdigstilt for publisering, og takker for interessen.</description>
+	</email_text>
+	<email_text key="EMAIL_LINK">
+		<subject>En interessant artikkel</subject>
+		<body><![CDATA[Jeg tenkte du kanskje kan være interessert i å lese artikkelen «{$submissionTitle}». Den er skrevet av {$authorName} og publisert i årgang {$volume}, utgave {$number} ({$year}) av <i>{$contextName}</i>, og er tilgjengelig på nettet: «<a href="{$articleUrl}">{$articleUrl}</a>».]]></body>
+		<description>Denne e-postmalen gir en registrert bruker muligheten til å sende e-post om en artikkel til andre interesserte. Den er tilgjengelig via «Leseverktøy», og må være slått på av redaksjonslederen fra administrasjonssiden for leseverktøy.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_NOTIFY">
+		<subject>Varsel om nyopprettet abonnement</subject>
+		<body><![CDATA[{$subscriberName}:<br />
+<br />
+Du er nå registrert som abonnent hos det nettbaserte tidsskriftet <i>{$contextName}</i>. Abonnementstypen du har er:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Du får enkelt tilgang til tidsskriftet ved å logge inn med brukernavnet «{$username}».<br />
+<br />
+Så snart du har logget inn, kan du når som helst endre personinformasjonen og passordet som er knyttet til ditt brukernavn.<br />
+<br />
+Merk at institusjonsabonnement er satt opp slik at de enkelte brukerne på institusjonens datasystem ikke behøver å logge inn, fordi systemet verifiserer henvendelsene fra slike brukere automatisk.<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+		<description>Denne e-posten varsler registrerte lesere om at redaksjonslederen har opprettet abonnement for dem. E-posten gir informasjon tidsskriftets URL, samt tilgang.</description>
+	</email_text>
+	<email_text key="OPEN_ACCESS_NOTIFY">
+		<subject>Ny utgave i Open Access</subject>
+		<body><![CDATA[Til våre lesere:<br />
+<br />
+<i>{$contextName}</i> har nå gjort følgende utgave tilgjengelig i Open Access-format. Innholdsfortegnelsen er vedlagt. Vi inviterer deg med det samme til å besøk nettstedet vårt (<a href="{$contextUrl}">{$contextUrl}</a>) for å se nærmere på annet innhold som kan være av interesse.<br />
+<br />
+Takk for at du viser interesse for arbeidet vårt.<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes til registrerte lesere som har bedt om å bli varslet når utgivelser blir åpent tilgjengelig.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_BEFORE_EXPIRY">
+		<subject>Varsel: Abonnementet ditt utløper</subject>
+		<body><![CDATA[{$subscriberName}:<br />
+<br />
+Abonnementet ditt på <i>{$contextName}</i> løper snart ut.<br />
+<br />
+{$subscriptionType}<br />
+Utløpsdato: {$expiryDate}<br />
+<br />
+Gå til tidsskriftets nettsted om du vil fornye abonnementet. Du logger inn med brukernavnet ditt «{$username}».<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+		<description>Denne e-posten varsler en abonnent om at abonnementet snart utløper. E-posten gir informasjon om tidsskriftets URL, samt tilgang.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_AFTER_EXPIRY">
+		<subject>Varsel: utløpt abonnement</subject>
+		<body><![CDATA[{$subscriberName}:<br />
+<br />
+Abonnementet ditt på <i>{$contextName}</i> har løpt ut.<br />
+<br />
+{$subscriptionType}<br />
+Utløpsdato: {$expiryDate}<br />
+<br />
+Gå til tidsskriftets nettsted for å fornye abonnementet ditt. Du logger inn med brukernavnet ditt: «{$username}».<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+		<description>Denne e-posten varsler en abonnent om at abonnementet er utløpt. E-posten gir informasjon om tidsskriftets URL, samt tilgang.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_AFTER_EXPIRY_LAST">
+		<subject>Siste varsel: Uløpt abonnement</subject>
+		<body><![CDATA[{$subscriberName}:<br />
+<br />
+Abonnementet ditt på <i>{$contextName}</i> har løpt ut.<br />
+Dette er det siste varselet du vil motta fra oss om dette.<br />
+<br />
+{$subscriptionType}<br />
+Utløpsdato: {$expiryDate}<br />
+<br />
+Gå til tidsskriftets nettsted for å fornye abonnementet ditt. Du logger inn med brukernavnet ditt: «{$username}».<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+		<description>Denne e-posten varsler en abonnent om at abonnementet er utløpt. E-posten gir informasjon om tidsskriftets URL, samt tilgang.</description>
+	</email_text>
+	<email_text key="USER_VALIDATE">
+		<subject>Bekreft brukerkontoen din</subject>
+		<body><![CDATA[{$userFullName}<br />
+<br />
+Du har opprettet en brukerkonto hos <i>{$contextName}</i>, men før du kan begynne å bruke den, må du bekrefte e-postkontoen din. Følg lenken under for å gjøre dette:<br />
+<br />
+<a href="{$activateUrl}">{$activateUrl}</a><br />
+<br />
+Vennlig hilsen<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes til nyregistrerte brukere for at den nyregistrerte brukeren kan bekrefte brukerkontoen sin.</description>
+	</email_text>
+	<email_text key="REVIEWER_REGISTER">
+		<subject>Registrering som fagfelle hos {$contextName}</subject>
+		<body><![CDATA[På grunn av ditt faglige omdømme, har vi tillatt oss å registrere navnet ditt i databasen over potensielle fagfeller for {$contextName}. Dette innebærer ingen form for forpliktelse fra din side, men gir oss en mulighet til å henvende oss til deg hvis vi får innleveringer i ditt fagfelt. Dersom du får en forespørsel om å fagfellevurdere et innlevering, vil du få mulighet til å se tittel og sammendrag for den aktuelle innleveringen gjennom nettstedet vårt. Du vil alltid stå fritt til å akseptere eller avslå oppdraget. Du kan dessuten når som helst be om at navnet ditt blir fjernet fra listen vår over potensielle fagfeller.<br />
+<br />
+Her får du brukernavn og et passord til nettstedet vårt. Det kan brukes til alt marbeid med <i>{$contextName}</i>. Der kan du også endre profilen din, som institusjonstilhørighet og faglige interesser.<br />
+<br />
+Brukernavn: {$username}<br />
+Passord: {$password}<br />
+<br />
+På forhånd takk.<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes til nyregistrerte fagfeller for å ønske dem velkommen til systemet, samt gi dem deres brukernavn og passord.</description>
+	</email_text>
+	<email_text key="NOTIFICATION">
+		<subject>Ny varsel fra {$siteTitle}</subject>
+		<body><![CDATA[Du har fått en ny varsel fra {$siteTitle}:<br />
+<br />
+{$notificationContents}<br />
+<br />
+Lenke: {$url}<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes til registrerte brukere som har valgt å få tilsendt slike varslinger.</description>
+	</email_text>
+	<email_text key="NOTIFICATION_MAILLIST">
+		<subject>Ny varsel fra {$siteTitle}</subject>
+		<body><![CDATA[Du har en ny varsel fra {$siteTitle}:<br />
+--<br />
+{$notificationContents}<br />
+<br />
+Lenke: {$url}<br />
+--<br />
+<br />
+Om du ikke lenger ønsker slike varslinger per e-post, gå til {$unsubscribeLink} og oppgi e-postadresse og passord.<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes til brukere som ikke er registrert og som er på e-postlisten for varslinger.</description>
+	</email_text>
+	<email_text key="NOTIFICATION_MAILLIST_WELCOME">
+		<subject>Velkommen til e-postlisten til {$siteTitle}!</subject>
+		<body><![CDATA[Du har bedt om å få varslinger fra {$siteTitle}.<br />
+<br />
+Klikk på denne lenken for å bekrefte ønske at du ønsker å være på denne listen og for å legge e-postadresse til e-postlisten: {$confirmLink}<br />
+<br />
+Om du ikke lenger ønsker å få varslinger via e-post, gå til {$unsubscribeLink} og oppgi e-postadresse og passord.<br />
+<br />
+Passordet ditt for å slå av e-postvarsler er: {$password}<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Denne e-posten sendes til bruker som nylig har bedt om å bli lagt til e-postlisten for varslinger</description>
+	</email_text>
+	<email_text key="EDITOR_DECISION_ACCEPT">
+		<subject>Redaktørens beslutning</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til <i>{$journalTitle}</i>. <br />
+<br />
+Vår beslutning er:<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra redaktør eller seksjonsredaktør til en forfatter, informerer om at innleveringen ble akseptert.</description>
+	</email_text>
+	<email_text key="EDITOR_DECISION_RESUBMIT">
+		<subject>Redaktørens beslutning</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi har tatt en beslutning angående manuskriptet ditt «{$submissionTitle}», som du sendte inn til <i>{$journalTitle}</i>. <br />
+<br />
+Vår beslutning er:<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra redaktør eller seksjonsredaktør til en forfatter, informerer om at innleveringen må leveres inn til ny fagfellevurdering.</description>
+	</email_text>
+	<email_text key="EDITOR_DECISION_REVISIONS">
+		<subject>Redaktørens beslutning</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til <i>{$journalTitle}</i>.
+<br />
+Vår beslutning er:<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra redaktør eller seksjonsredaktør til en forfatter, informerer om at innleveringen må revideres.</description>
+	</email_text>
+	<email_text key="EDITOR_DECISION_DECLINE">
+		<subject>Redaktørens beslutning</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til <i>{$journalTitle}</i>. <br />
+Vår beslutning er:<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra redaktør eller seksjonsredaktør til en forfatter, informerer om at innleveringen ble ikke ble akseptert.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_PURCHASE_INDL">
+		<subject>Abonnementskjøp: Individuelt abonnement</subject>
+		<body><![CDATA[Et individuelt abonnement på tidsskriftet <i>{$contextName}</i> har blitt kjøpt på nett. Detaljer om kjøpet:<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Bruker:<br />
+{$userDetails}<br />
+<br />
+Medlemskapsinformasjon (om oppgitt):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk følgende URL: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a>]]></body>
+		<description>Denne e-posten informerer abonnementsansvarlig om et kjøp av et individuelt abonnement. Den gir informasjon om abonnementet og en lenke til det kjøpte abonnementet.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_PURCHASE_INSTL">
+		<subject>Abonnementskjøp: Institusjonelt abonnement</subject>
+		<body><![CDATA[Et institusjonelt abonnement på <i>{$contextName}</i> har blitt kjøpt på nettet. Se detaljer om kjøpet under. For å aktivisere abonnementet, bruk den angitte abonnements URL og sett abonnementsstatus til «Aktiv».<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Institusjon:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domene (om angitt):<br />
+{$domain}<br />
+<br />
+IP-område (om angitt):<br />
+{$ipRanges}<br />
+<br />
+Kontaktperson:<br />
+{$userDetails}<br />
+<br />
+Medlemskapsinformasjon (om oppgitt):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk følgende URL: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a>]]></body>
+		<description>Denne e-posten informerer abonnementsansvarlig om et kjøp av et institusjonelt abonnement. Den gir informasjon om abonnementet og en lenke til det kjøpte abonnementet.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_RENEW_INDL">
+		<subject>Abonnementsfornyelse: Individuelt abonnement</subject>
+		<body><![CDATA[Et individuelt abonnement på <i>{$contextName}</i> har blitt fornyet online. For mer informasjon se under.<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Bruker:<br />
+{$userDetails}<br />
+<br />
+Medlemskapsinformasjon (om oppgitt):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk denne URL-en: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a>]]></body>
+		<description>Denne e-posten informerer abonnementsansvarlig om fornying av et individuelt abonnement. Den gir informasjon om abonnementet og en lenke til det fornyede abonnementet.</description>
+	</email_text>
+	<email_text key="SUBSCRIPTION_RENEW_INSTL">
+		<subject>Abonnementsfornyelse: Institusjonelt abonnement</subject>
+		<body><![CDATA[Et institusjonelt abonnement på <i>{$contextName}</i> har blitt fornyet online. For mer informasjon se under.<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Institusjon:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domene (om angitt):<br />
+{$domain}<br />
+<br />
+IP-område (om angitt):<br />
+{$ipRanges}<br />
+<br />
+Kontaktperson:<br />
+{$userDetails}<br />
+<br />
+Medlemskapsinformasjon (om angitt):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk URL-en: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a>]]></body>
+		<description>Denne e-posten informerer abonnementsansvarlig om fornying av et institusjonelt abonnement. Den gir informasjon om abonnementet og en lenke til det fornyede abonnementet.</description>
+	</email_text>
+	<email_text key="CITATION_EDITOR_AUTHOR_QUERY">
+		<subject>Redigere referanser</subject>
+		<body><![CDATA[{$authorFirstName},<br />
+<br />
+Kan du bekrefte at denne referansen fra artikkelen din, «{$submissionTitle}», er riktig? Hvis ikke, ber vi deg korrigere referansen.<br />
+<br />
+{$rawCitation}<br />
+<br />
+Mange takk!<br />
+<br />
+{$userFirstName}<br />
+Språkvasker {$contextName}<br />]]></body>
+		<description>Denne e-posten lar språkvaskere be forfattere bekrefte eller rette opp referanser</description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST_REMIND_AUTO">
+		<subject>Påminnelse om forespørsel om fagfellevurdering (automatisk e-post)</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+Dette er en automatisk generert e-post som er sendt for å minne deg om at vi har sendt deg en forespørsel om å fagfellevurdere manuskriptet «{$submissionTitle}» for <i>{$contextName}</i>. Vi hadde håpet på et svar innen {$responseDueDate}. 
+<br />
+Jeg tror du vil kunne gi gode innspill i en fagfellevurdering av dette manuskriptet. Du ser sammendraget under. Jeg håper du kan tenke deg å ta på deg dette oppdraget for oss.<br />
+<br />
+Kunne du logge deg inn på nettstedet til tidsskriftet og indikere om du vil ta på deg fagfellevurderingen? Der får du også tilgang til innleveringen og du kan gi din vurdering og anbefaling. Nettstedet er <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+Fristen for fagfellevurderingen er {$reviewDueDate}.<br />
+<br />
+Dersom du ikke har brukernavn og passord for tidsskriftets nettsted, kan du bruke lenken under for å få et nytt passord. Det vil bli sendt til det i en e-post sammen med brukernavnet ditt. <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Takk for at du vurderer forespørselen.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+«{$submissionTitle}»<br />
+<br />
+{$submissionAbstract}]]></body>
+		<description>*Denne e-posten blir sendt automatisk når fagfellens frist for å bekrefte oppdrag utløper (se ...</description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST_REMIND_AUTO_ONECLICK">
+		<subject>Påminnelse om forespørsel om fagfellevurdering (automatisk e-post)</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Dette er en automatisk generert e-post som er sendt ut for å minne deg på at du har tatt på deg å fagfellevurdere manuskriptet «{$submissionTitle}» for <i>{$contextName}</i>. Jeg minner om at tidsfristen for oppdraget var satt til {$reviewDueDate}. Jeg ser fram til å motta fagfellevurderingen din, så snart du har den klar.<br />
+Jeg tror du vil kunne gi gode innspill i en fagfellevurdering av dette manuskriptet. Du ser sammendraget under. Jeg håper du kan tenke deg å ta på deg dette oppdraget for oss.<br />
+<br />
+Kunne du logge deg inn på nettstedet til tidsskriftet og indikere om du vil ta på deg fagfellevurderingen? Der får du også tilgang til innleveringen og du kan gi din vurdering og anbefaling. Nettstedet er <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+Fristen for fagfellevurderingen er {$reviewDueDate}.<br />
+<br />
+Dersom du ikke har brukernavn og passord for tidsskriftets nettsted, kan du bruke lenken under for å få et nytt passord. Det vil bli sendt til det i en e-post sammen med brukernavnet ditt. <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Takk for at du vurderer forespørselen.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+«{$submissionTitle}»<br />
+<br />
+{$submissionAbstract}]]></body>
+		<description><![CDATA[Denne e-posten blir sendt automatisk når fagfellens frist for å bekrefte oppdrag utløper (se Innstillinger > Arbeidsflyt > Fagfellevurdering) og du har skrudd på ettklikks tilgang for fagfellen. Planlagte oppgaver må være skrudd på og konfigurert (se filen med nettsidekonfigurering)....]]></description>
+	</email_text>
+	<email_text key="EDITOR_DECISION_SEND_TO_EXTERNAL">
+		<subject>Redaktørens beslutning</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til <i>{$journalTitle}</i>. <br />
+<br />
+Vår beslutning er: Send til fagfellevurdering<br />
+<br />
+Innleveringens URL: {$submissionUrl}<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten fra redaktør eller seksjonsredaktør til en forfatter, informerer om at innleveringen vil bli sendt til fagfellevurdering.</description>
+	</email_text>
+	<email_text key="EDITOR_DECISION_SEND_TO_PRODUCTION">
+		<subject>Redaktørens beslutning</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Språkvasken av «{$submissionTitle}» er ferdigstilt. Vi sender den videre til produksjon.<br />
+<br />
+Innleveringens URL: {$submissionUrl}<br />
+<br />
+{$editorialContactSignature}<br />]]></body>
+		<description>Denne e-posten fra redaktør eller seksjonsredaktør til en forfatter, informerer om at innleveringen sendes til produksjon..</description>
+	</email_text>
+	<email_text key="GIFT_AVAILABLE">
+		<subject>{$giftNoteTitle}</subject>
+		<body><![CDATA[Kjære {$recipientFirstName},<br />
+<br />
+{$buyerFullName} ønsker å gi deg en gave hos <i>{$giftJournalName}<i>:<br />
+<br />
+{$giftDetails}<br />
+<br />
+<br />
+{$giftNote}<br />
+<br />
+<br />
+Du vil motta en e-post med detaljene du trenger for å logge inn og instruksjoner om hvordan du får tilgang til gaven din.<br />
+<br />
+Vi håper du setter pris på gaven!<br />
+<br />
+{$giftContactSignature}<br />]]></body>
+		<description>Denne e-posten informerer en mottaker om en gave.</description>
+	</email_text>
+	<email_text key="GIFT_USER_LOGIN">
+		<subject>Din gave: Innloggingsdetaljer</subject>
+		<body><![CDATA[Kjære {$recipientFirstName},<br />
+<br />
+{$buyerFullName} ønsker å gi deg en gave hos <i>{$giftJournalName}<i>:<br />
+<br />
+{$giftDetails}<br />
+<br />
+<br />
+Du henter gaver din ved å logge inn på denne siden: <a href="{$giftUrl}">{$giftUrl}</a><br />
+<br />
+Brukernavnet ditt: {$username}<br />
+<br />
+Vi håper du setter pris på gaven!<br />
+<br />
+{$giftContactSignature}<br />]]></body>
+		<description>Denne e-posten informerer en mottaker om detaljer for innlogging.</description>
+	</email_text>
+	<email_text key="GIFT_USER_REGISTER">
+		<subject>Din gave: Innloggingsdetaljer</subject>
+		<body><![CDATA[Kjære {$recipientFirstName},<br />
+<br />
+{$buyerFullName} ønsker å gi deg en gave hos <i>{$giftJournalName}<i>:<br />
+<br />
+{$giftDetails}<br />
+<br />
+<br />
+Du henter gaven din ved å logge inn på denne siden: <a href="{$giftUrl}">{$giftUrl}</a><br />
+<br />
+Brukernavnet ditt: {$username}<br />
+Passordet ditt: {$password}<br />
+<br />
+Du kan endre passordet etter at du har logget inn.
+<br />
+Vi håper du setter pris på gaven!<br />
+<br />
+{$giftContactSignature}<br />]]></body>
+		<description>Denne e-posten informerer en mottaker om detaljer for innlogging til en ny konto.</description>
+	</email_text>
+	<email_text key="NOTIFICATION_CENTER_DEFAULT">
+		<subject><![CDATA[En beskjed angående <i>{$contextName}</i>]]></subject>
+		<body>Skriv inn beskjeden din her.</body>
+		<description>Denne blanke standardbeskjeden blir brukt der du lager liste over varslinger</description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST_SUBSEQUENT">
+		<subject>Forespørsel om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Dette gjelder innleveringen «{$submissionTitle}», som vurderes for publisering hos <i>{$contextName}</i>.<br />
+<br />
+Forfatterne har levert inn en revidert versjon av artikkelen deres etter fagfellevurderingen av en tidligere versjon. Vi hadde satt pris på om du kunne vurdere den.<br />
+<br />
+Logg inn på tidsskriftets nettsted innen {$responseDueDate} for å si ifra om du kan ta på det fagfellevurderingen. Der vil du også få tilgang til innleveringen og registrere fagfellevurderingen og anbefalingen din. Nettstedet er: <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+Frist for fagfellevurdering er satt til {$reviewDueDate}.<br />
+<br />
+Dersom du ikke har brukernavn og passord til nettstedet, kan du bruke lenken under for å få nytt passord, som vil bli sendt til deg i en e-post sammen med brukernavnet ditt. <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Takk for at du vurderer forespørselen.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+«{$submissionTitle}»<br />
+<br />
+{$submissionAbstract}]]></body>
+		<description><![CDATA[Denne e-posten fra seksjonsredaktør til fagfelle ber fagfelle akseptere eller avslå ny fagfellevurdering av en innlevering. Det gir informasjon om innleveringen, som tittel og sammendrag, fristen og tilgang til selve innleveringen. Denne beskjeden blir brukt når *Standard fagfellevurderingsprosess er valgt under  Innstillinger > Arbeidsflyt > Fagfellevurdering. (Ellers se: REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)]]></description>
+	</email_text>
+	<email_text key="REVISED_VERSION_NOTIFY">
+		<subject>Revidert versjon lastet opp</subject>
+		<body><![CDATA[{$editorialContactName}:<br />
+<br />
+Forfatteren {$authorName} har lastet opp en revidert versjon av «{$submissionTitle}».<br />
+<br />
+Innleveringens URL: {$submissionUrl}<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes automatisk til redaktøren når forfatteren laster opp en revidert versjon av en artikkel.</description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST_ATTACHED_SUBSEQUENT">
+		<subject>Påminnelse om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Dette gjelder innleveringen «{$submissionTitle}» som er til vurdering hos <i>{$contextName}</i>.<br />
+<br />
+Forfatterne har levert inn en revidert versjon av artikkelen sin etter fagfellevurdering av en tidligere versjon. Vi hadde satt pris på om du kunne se på den nye versjonen.<br />
+<br />
+Du finner «Instruks for fagfellevurdering» for dette tidsskriftet under. Manuskriptet er vedlagt. Fristen for å sende din fagfellevurdering og anbefaling til meg via e-post er {$reviewDueDate}.<br />
+<br />
+Vi hadde satt pris på om du kunne gi beskjed via e-post innen {$responseDueDate} om du har anledning til å utføre fagfellevurderingen.<br />
+<br />.
+{$editorialContactSignature}<br />
+<br />
+Instruks for fagfellevurdering<br />
+<br />
+{$reviewGuidelines}<br />]]></body>
+		<description><![CDATA[Denne e-posten fra seksjonsredaktør til fagfelle ber fagfelle akseptere eller avslå ny fagfellevurdering av en innlevering. Den inkluderer et vedlegg med innleveringen. Meldingen brukes når «E-post: vedlegg fagfellevurdering» er valgt under  Innstillinger > Arbeidsflyt > Fagfellevurdering. *(Ellers, se: REVIEW_REQUEST_SUBSEQUENT.)]]></description>
+	</email_text>
+	<email_text key="REVIEW_REQUEST_ONECLICK_SUBSEQUENT">
+		<subject>Forespørsel om fagfellevurdering</subject>
+		<body><![CDATA[{$reviewerName}:<br />
+<br />
+Dette gjelder innleveringen «{$submissionTitle}» som er til vurdering hos <i>{$contextName}</i>.<br />
+<br />
+Forfatterne har nå levert inn en revidert versjon av artikkelen sin etter fagfellevurdering av en tidligere versjon. Vi hadde satt pris på om du kunne fagfellevurdere den.<br />
+<br />
+Logg inn på tidsskriftets nettsted innen {$responseDueDate} for å gi beskjed om du kan utføre oppdraget eller ikke. Der får du også tilgang til innleveringen, og du kan registrere fagfellevurderingen og anbefalingen din.<br />
+<br />
+Fristen for fagfellevurderingen er {$reviewDueDate}.<br />
+<br />
+Innleveringens URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+«{$submissionTitle}»<br />
+<br />
+{$submissionAbstract}]]></body>
+		<description><![CDATA[Denne e-posten sendes fra seksjonsredaktør til fagelle med forespørsel om fagfellen kan vurdere en innlevering for en annen eller utvidet runde med fagfellevurdering. Den gir informasjon om innleveringen, som tittel og sammendrag, frist og om tilgang til selve innleveringen. Beskjeden brukes når standard fagfellevurdering er valgt under Administrasjon > Innstillinger > Arbeidsflyt]]></description>
+	</email_text>
+	<email_text key="EDITOR_DECISION_INITIAL_DECLINE">
+		<subject>Redaktørens beslutning</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til <i>{$contextName}</i>.<br />
+<br />
+Vår beslutning er: Innleveringen avvises<br />
+<br />
+{$editorialContactSignature}<br />]]></body>
+		<description>Denne e-posten sendes til forfatteren dersom redaktøren avviser innleveringen ved første lesing (før fagfellevurdering)</description>
+	</email_text>
+	<email_text key="EDITOR_RECOMMENDATION">
+		<subject>Redaktørens anbefaling</subject>
+		<body><![CDATA[{$editors}:<br />
+<br />
+Min anbefaling ang. innleveringen &quot;{$submissionTitle}&quot til <i>{$contextName}</i>, er: {$recommendation}<br />
+<br />
+{$editorialContactSignature}<br />]]></body>
+		<description>Denne e-posten sendes fra en redaktør eller seksjonsredaktør som gir anbefaling til redaktører eller seksjonsredaktører som tar endelig beslutning med beskjed om en endelig anbefaling angående innleveringen.</description>
+	</email_text>
+	<email_text key="SUBMISSION_ACK_NOT_USER">
+		<subject>Bekreftelse på innlevering</subject>
+		<body><![CDATA[Hei<br />
+<br />
+{$submitterName} har levert inn &quot;{$submissionTitle}&quot; til <i>{$contextName}</i>.<br />
+<br />
+Ta kontakt med meg om du har spørsmål. Takk for at du vurderer dette tidsskriftet for arbeidet ditt.<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>Denne e-posten sendes automatisk (dersom den er aktivert) til de andre forfatterne som ikke er brukere av OJS under innleveringsprosessen</description>
+	</email_text>
+</email_texts>

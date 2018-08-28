@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/crossref/locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the nb_NO (Norsk bokmål) locale.
+  *
+  -->
+
+<locale name="nb_NO" full_name="Norsk bokmål">
+	<message key="plugins.importexport.crossref.displayName">CrossRef XML</message>
+	<message key="plugins.importexport.crossref.description">Dette programtillegget eksporterer artikkelmetadata i CrossRef XML-format</message>
+
+	<message key="plugins.importexport.crossref.cliUsage">Bruk:
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] artikler [articleId1] [articleId2] ...
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] utgave [issueId]</message>
+	<message key="plugins.importexport.crossref.cliError">Feil:</message>
+
+	<message key="plugins.importexport.crossref.export.error.issueNotFound">Ingen utgave stemmer med den angitte utgaveidentiteten «{$issueId}».</message>
+	<message key="plugins.importexport.crossref.export.error.articleNotFound">Ingen artikkel stemmer med den angitte artikkelidentiteten «{$articleId}».</message>
+
+	<message key="plugins.importexport.crossref.requirements">Krav</message>
+	<message key="plugins.importexport.crossref.requirements.satisfied">Alle programtilleggkravene er møtt</message>
+	<message key="plugins.importexport.crossref.error.publisherNotConfigured"><![CDATA[Du har ikke konfigurert en utgiver. Du må legge til en utgiverinstitusjon under <a href="{$journalSettingsUrl}" target="_blank">siden med innstillinger for tidsskriftet</a>.]]></message>
+	<message key="plugins.importexport.crossref.error.issnNotConfigured"><![CDATA[Du har ikke konfigurert et ISSN for tidsskriftet. Du må legge til et ISSN under <a href=«{$journalSettingsUrl}» target="_blank">siden med innstillinger for tidsskriftet</a>.]]></message>
+	<message key="plugins.importexport.crossref.error.noDOIContentObjects">Artiklene er ikke valgt for opprettelse av DOI i programtillegget for DOIs offentlige identifikator, så det er ikke mulig å overføre eller eksportere i dette programtillegget</message>
+	<message key="plugins.importexport.crossref.settings.depositorIntro">Du må legge inn informasjonen under for å ekportere til CrossRef:</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorName">Navnet på den som overfører</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorEmail">E-posten til den som overfører</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorNameRequired">Legg inn navnet på den som overfører</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorEmailRequired">Legg inn e-posten til den som overfører</message>
+	<message key="plugins.importexport.crossref.registrationIntro"><![CDATA[Dersom du ønsker å bruke dette programtillegget for å registrere DOI direkte med CrossRef, må du ha et brukernavn og passord. Dette finner du hos <a href="http://www.crossref.org" target="_blank">CrossRef</a>. Om du ikke har brukernavn og passord, kan du fremdeles eksportere til CrossRef XML-formatet, men du kan ikke registrere DOI med CrossRef i OJS.]]></message>
+	<message key="plugins.importexport.crossref.settings.form.username">Brukernavn</message>
+	<message key="plugins.importexport.crossref.settings.form.usernameRequired">Legg inn brukernavnet du fikk fra CrossRef</message>
+	<message key="plugins.importexport.crossref.settings.form.automaticRegistration.description">OJS vil overføre de oppnevnte DOI-ene automatisk til CrossRef. Merk at det kan ta litt tid etter publiseringen før alt er klart. Du kan velge alle uregistrerte DOI-er.</message>
+	<message key="plugins.importexport.crossref.settings.form.testMode.description">Bruk CrossRef sjekk API for overføringen av DOI. Husk å fjerne denne valgmuligheten for produksjonsfasen.</message>
+	<message key="plugins.importexport.crossref.issues.description">Merk: Bare utgaver (ikke artiklene) vil bli vurdert for eksport/registrering her.</message>
+	<message key="plugins.importexport.crossref.status.submitted">Innlevert</message>
+	<message key="plugins.importexport.crossref.status.completed">Overført</message>
+	<message key="plugins.importexport.crossref.status.failed">Mislyktes</message>
+	<message key="plugins.importexport.crossref.status.registered">Aktiv</message>
+	<message key="plugins.importexport.crossref.status.markedRegistered">Markert aktiv</message>
+	<message key="plugins.importexport.crossref.statusLegend"><![CDATA[<p>Status overføring:</p>
+		<p>
+		- Ikke overført: ingen forsøk på å overføre denne DOI-en.<br />
+		- Innlevert: denne DOI-en har blitt innlevert for overføring.<br />
+		- Overført: denne DOI-en har blitt overført til CrossRef, men er muligens ikke aktiv ennå.<br />
+		- Active: denne DOI-en er overført og fungerer som den skal.<br />
+		- Mislyktes: overføringen av DOI mislyktes.<br />
+		- Merket aktiv: DOI-en ble manuelt markert som aktiv.
+		</p>
+		<p>Bare statusen på det siste overføringsforsøket vises.</p>
+		<p>Dersom en overføring mislyktes, løs problemet og prøv å registrere DOI igjen.</p>]]></message>
+	<message key="plugins.importexport.crossref.action.export">Last ned XML</message>
+	<message key="plugins.importexport.crossref.action.markRegistered">Merk som aktiv</message>
+	<message key="plugins.importexport.crossref.action.register">Lever inn</message>
+	<message key="plugins.importexport.crossref.action.checkStatus">Sjekk status</message>
+	<message key="plugins.importexport.crossref.senderTask.name">CrossRefs automatiske registrering</message>
+	<message key="plugins.importexport.crossref.notification.failed"><![CDATA[En DOI ble ikke registrert. Gå til «Verktøy» > «Import/eksport» > «Programtillegg for eksport til CrossRef XML» for hvilke overføringer som feilet]]></message>
+	<message key="plugins.importexport.crossref.register.error.mdsError">Overføringen mislyktes. Serveren som skal registrere DOI meldte en feil: «{$param}».</message>
+	<message key="plugins.importexport.crossref.register.success">Overføringen var vellykket</message>
+</locale>

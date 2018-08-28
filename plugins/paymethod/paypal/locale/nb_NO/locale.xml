@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/paymethod/paypal/locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2016 Simon Fraser University Library
+  * Copyright (c) 2006-2009 Gunther Eysenbach, Juan Pablo Alperin, MJ Suhonos
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the nb_NO (Norsk bokmål) locale.
+  -->
+ 
+<locale name="nb_NO" full_name="Norsk bokmål">
+	<message key="plugins.paymethod.paypal.displayName">Betaling med PayPal</message>
+
+	<!-- PayPal Settings Form -->
+	<message key="plugins.paymethod.paypal.settings.paypalenable">Slå på PayPal</message>
+	<message key="plugins.paymethod.paypal.settings.paypalurl">IPN-URL</message>
+	<message key="plugins.paymethod.paypal.settings.paypalurl.description"><![CDATA[Dette er URL-en til PayPals tjeneste Instant Payment Notification (IPN). For en test, bruk <u>https://www.sandbox.paypal.com/cgi-bin/webscr</u>. For produksjonssystemet, bruk  <u>https://www.paypal.com/cgi-bin/webscr</u>.]]></message>
+	<message key="plugins.paymethod.paypal.settings.selleraccount">Selgerens konto</message>
+	<message key="plugins.paymethod.paypal.settings.selleraccount.description">Dette er PayPals brukernavn for selgerkontoen som skal brukes. Det er vanligvis en e-postadresse. Pass på du har aktivisert Instant Payment Notification (IPN) i profilen i selgerkontoen din.</message>
+	<message key="plugins.paymethod.paypal.settings.curlNotInstalled">Advarsel: CURL-støtte for PHP er ikke installert. PayPal betalingstjenester krever CURL-biblioteket og vil ikke fungere før det er installert.</message>
+	<message key="plugins.paymethod.paypal.settings">PayPal-innstillinger</message>
+
+	<!-- PayPal -->
+	<message key="plugins.paymethod.paypal">Betaling med PayPal</message>
+	<message key="plugins.paymethod.paypal.description">Betalinger skjer via PayPal</message>
+	<message key="plugins.paymethod.paypal.warning">Klikk på «Fortsett» nedenfor for å gå til PayPals nettsted. Der kan man betale med kredittkort, uten at du må bli medlem i PayPal. Trykk på «Return to Merchant» etter å ha utført betalingen for å komme tilbake til dette nettstedet.</message>
+	<message key="plugins.paymethod.paypal.purchase.title">Tittel</message>
+	<message key="plugins.paymethod.paypal.purchase.fee">Beløp</message>
+	<message key="plugins.paymethod.paypal.purchase.description">Beskrivelse</message>
+	<message key="plugins.paymethod.paypal.purchase.cancelled">Kjøpet ditt har blitt kansellert</message>
+	<message key="plugins.paymethod.paypal.purchase.cancelled.title">Kjøp kansellert</message>
+	<message key="plugins.paymethod.paypal.settings.testMode">Testmodus</message>
+	<message key="plugins.paymethod.paypal.settings.accountName">Kontonavn</message>
+	<message key="plugins.paymethod.paypal.settings.clientId">Klient-ID</message>
+	<message key="plugins.paymethod.paypal.settings.secret">Hemmelig</message>
+	<message key="plugins.paymethod.paypal.error">Det oppsto en feil under transaksjonen. Kontakt tidsskriftsadministratoren for detaljer.</message>
+</locale>

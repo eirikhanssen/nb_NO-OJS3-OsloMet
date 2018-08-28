@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="submission.submit.title">Lever inn en artikkel</message>
+	<message key="submission.submit.userGroup">Lever inn i min rolle som ...</message>
+	<message key="submission.title">Tittel</message>
+	<message key="submission.submit.newSubmissionMultiple">Start en ny innlevering i</message>
+	<message key="submission.submit.newSubmissionSingle">Ny innlevering</message>
+	<message key="grid.action.workflow">Arbeidsflyt</message>
+	<message key="submission.issueEntry">Metadata</message>
+	<message key="grid.action.issueEntry">Se metadata for denne innleveringen</message>
+	<message key="workflow.review.externalReview">Fagfellevurdering</message>
+	<message key="editor.submission.decision.sendExternalReview">Send til fagfellevurdering</message>
+	<message key="submission.submit.userGroupDescription">Velg rolle for å leverer inn denne artikkelen</message>
+	<message key="submission.upload.selectComponent">Velg artikkelkomponent</message>
+	<message key="submission.title.tip"><![CDATA[Denne typen innlevering er vanligvis «bilde», «tekst» eller andre multimediatyper, inkludert «programvare» og «interaktiv». Velg den som som er mest relevant for din innlevering. Du finner eksempler hos:  <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type</a>]]></message>
+	<message key="submission.submit.whatNext.description">Tidsskriftet har blitt varslet om innleveringen din. Du har mottatt en e-post med bekreftelse. Så snart redaktøren har gått gjennom innleveringen, vil du bli kontaktet.</message>
+	<message key="grid.action.galleyInIssueEntry">Oppsettet vises i utgavens innholdsfortegnelse</message>
+	<message key="submission.issueEntry.modalTitle">Metadata for innlevering og publisering</message>
+	<message key="submission.issueEntry.submissionMetadata">Innlevering</message>
+	<message key="submission.issueEntry.publicationMetadata">Publisering</message>
+	<message key="submission.issueEntry.confirm">Opprett et element til innholdsfortegnelsen basert på metadata under</message>
+	<message key="submission.event.articleGalleyMadeAvailable">Artikkeloppsettet «{$galleyFormatName}» er gjort tilgjengelig</message>
+	<message key="submission.event.articleGalleyMadeUnavailable">Artikkeloppsettet «{$galleyFormatName}» er utilgjenglig</message>
+	<message key="submission.event.publicIdentifiers">Den offentlige identifikatoren til innleveringen er oppdatert</message>
+	<message key="grid.issueEntry.availableGalley.title">Godkjenn format</message>
+	<message key="grid.issueEntry.availableGalley.removeMessage"><![CDATA[<p>Dette oppsettet vil <em>ikke lenger være tilgjengelig</em> for leserne.</p>]]></message>
+	<message key="grid.issueEntry.availableGalley.message"><![CDATA[<p>Dette oppsettet vil <em>bli gjort tilgjengelig</em> for leserne.</p>]]></message>
+	<message key="grid.action.availableArticleGalley">Gjør oppsettet tilgjengelig</message>
+	<message key="submission.galleyFiles">Oppsettfiler</message>
+	<message key="submission.proofReadingDescription"><![CDATA[Layoutredaktøren laster opp produksjonsklare filer som har blitt klargjort for publisering her. Bruk <em>«Oppnevn sluttkontrollør»</em> for å la forfattere og andre korrekturlese oppsettet. Korrigerte filer lastes opp for godkjenning før publisering.]]></message>
+	<message key="grid.action.approveProof">Godkjenn denne korrekturen for inkludering i oppsettet.</message>
+	<message key="grid.action.pageProofApproved">Denne korrekturen har blitt godkjent for inkludering i oppsettet.</message>
+	<message key="submission.submit.titleAndSummary">Tittel og sammendrag</message>
+	<message key="submission.submit.upload.description">Last opp filer knyttet til denne innleveringen, inkludert artikkelen, metadata, datasett, illustrasjoner osv.</message>
+	<message key="submission.pageProofs">Korrekturlesing</message>
+	<message key="submission.confirmSubmit">Er du sikker på at du vil levere inn denne artikkelen til tidsskriftet?</message>
+	<message key="submission.event.issueMetadataUpdated">Metadata for innleveringen ble oppdatert</message>
+	<message key="submission.upload.fileContents">Artikkelkomponent</message>
+	<message key="submission.complete">Godkjent</message>
+	<message key="submission.incomplete">Avventer godkjenning</message>
+	<message key="submission.submit.form.localeRequired">Velg et språk</message>
+	<message key="submission.submit.submissionChecklist">Sjekkliste</message>
+	<message key="submission.submit.submissionChecklistDescription">Du må lese og bekrefte at du møter kravene under før du fortsetter</message>
+	<message key="submission.submit.privacyStatement">Erklæring om personvern</message>
+	<message key="submission.submit.contributorRole">Bidragsyterens rolle</message>
+	<message key="submission.submit.form.authorRequired">Skriv inn minst en forfatter</message>
+	<message key="submission.submit.form.authorRequiredFields">Skriv inn fornavn, etternavn og e-postadressen til hver enkelt forfatter</message>
+	<message key="submission.submit.form.titleRequired">Skriv inn tittelen på artikkelen</message>
+	<message key="submission.submit.form.abstractRequired">Skriv inn sammendraget</message>
+	<message key="submission.submit.form.contributorRoleRequired">Velg bidragsyterens rolle</message>
+	<message key="submission.citationFormat.notFound">Det forespurte referanseformatet kunne ikke hentes</message>
+	<message key="submission.metadataDescription">Disse spesifikasjonene er basert på metadatasettet Dublin Core, en internasjonal standard som bl.a. brukes til å beskrive tidsskriftinnhold</message>
+	<message key="section.any">Ev. seksjon</message>
+</locale>

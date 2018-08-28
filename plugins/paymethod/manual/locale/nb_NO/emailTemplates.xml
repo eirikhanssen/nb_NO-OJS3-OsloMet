@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * emailTemplateData.xml
+  *
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+<email_texts locale="nb_NO">
+	<email_text key="MANUAL_PAYMENT_NOTIFICATION">
+		<subject>Melding om manuell betaling</subject>
+		<body><![CDATA[En manuell betaling må behandlet for tidsskriftet <i>{$contextName} </i> og brukeren {$userFullName} (username &quot;{$userName}&quot;).<br />
+<br />
+Betalingen gjelder &quot;{$itemName}&quot;.<br />
+Prisen er {$itemCost} ({$itemCurrencyCode}).<br />
+<br />
+Denne e-posten ble generert av Open Journal Systems' programtillegg for manuell betaling]]></body>
+		<description>Denne e-postmalen brukes for å gi beskjed til en tidsskriftsadministrator at en manuell betaling er forespurt</description>
+	</email_text>
+</email_texts>
