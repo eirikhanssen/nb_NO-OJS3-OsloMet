@@ -12,7 +12,7 @@
   *
   -->
 
-<locale name="nb_NO" full_name = "Norwegian">
+<locale name="nb_NO" full_name = "Norsk Bokmål">
 	<message key="about.aboutSite">Om nettstedet</message>
 	<message key="about.contact">Kontakt</message>
 	<message key="about.contact.email">E-post</message>
@@ -93,6 +93,9 @@
 	<message key="common.file.namingPattern">{$username}, {$userGroup}, {$originalFilename}</message>
 	<message key="common.file.anonymousNamingPattern">{$userGroup}, {$originalFilename}</message>
 	<message key="common.height">Høyde</message>
+        <message key="common.filter">Filter</message>
+        <message key="common.filterAdd">Legg till filter: {$filterTitle}</message>
+        <message key="common.filterRemove">Fjern filter: {$filterTitle}</message>
 	<message key="common.homePageHeaderLogo.altText">Topplogo på hjemmesiden</message>
 	<message key="common.hour">Klokkeslett</message>
 	<message key="common.id">ID</message>
@@ -540,11 +543,6 @@
 	<message key="notification.sentNotification">Varsling sendt</message>
 	<message key="navigation.items.shownTotal">{$shown} av {$total} elementer</message>
 	<message key="navigation.publicMenu">Offentlig meny</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
 	<message key="common.deleting">Sletter</message>
 	<message key="common.downloadPdf">Last ned PDF</message>
 	<message key="common.from">Fra</message>
