@@ -173,7 +173,7 @@
 	<message key="metadata.property.validationMessage.issue">Oppgi en gyldig utgave</message>
 	<message key="metadata.property.displayName.volume">Årgang</message>
 	<message key="metadata.property.validationMessage.volume">Oppgi en gyldig årgang</message>
-	<message key="metadata.property.displayName.doi">DOI:</message>
+	<message key="metadata.property.displayName.doi">DOI</message>
 	<message key="metadata.property.validationMessage.doi">Skriv inn en gyldig DOI</message>
 	<message key="metadata.property.displayName.uri">Lenke til publikasjonen</message>
 	<message key="metadata.property.validationMessage.uri">Skriv inn en gyldig, alternativ lenke til publikasjonen</message>
