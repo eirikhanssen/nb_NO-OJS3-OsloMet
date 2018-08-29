@@ -379,7 +379,7 @@
 	<message key="common.navigation.user">Brukernavigering</message>
 	<message key="common.tasks">Oppgaver</message>
 	<message key="common.list">Liste</message>
-	<message key="common.listSeparator">, </message>
+	<message key="common.listSeparator">,&#xA0;</message>
 	<message key="common.grid">Nett</message>
 	<message key="common.confirmDelete">Er du sikker på at du vil slette dette elementet? Det kan ikke gjøres om.</message>
 	<message key="common.abstract">Sammendrag</message>
