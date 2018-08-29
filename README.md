@@ -15,8 +15,7 @@ cd nb_NO-OJS3-OsloMet
 1) Create a tar.gz archive and 2) (optional) move it out of the git repo.
 Change the date timestamp if you wish.
 ```
-tar -cvzf nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ./lib ./locale ./plugins --exclude='./lib/pkp/dtd'
-mv  nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ..
+tar -cvzf nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ./lib ./locale ./plugins --exclude='./lib/pkp/dtd' && mv nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ..
 ```
 Change directory into the OJS3 installation root, the same folder where **config.inc.php is located**
 ```
