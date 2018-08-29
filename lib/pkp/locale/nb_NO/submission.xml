@@ -266,18 +266,28 @@
         <message key="submission.citations.editor.introduction.introductionMessage"><![CDATA[<h4>Velkommen!</h4>
 	<p>Denne referansemarkeringshjelpen hjelper deg med å legge inn markeringsspråk for referansene som forfatterne har oppgitt, før eksport til NLM 2.3 eller 3.0 XML oppsett, alternativt som tekstbasert eksport.</p>
 	<ul>
-				<li><p><strong>Konfigurering</strong></p>
-		<p>Referansemarkeringshjelpen er konfigurert av redaksjonslederen av tidsskriftet <a href="{$citationSetupUrl}">Tidsskriftsoppsett Trinn 3.7: Referansemarkeringshjelper</a>. Andre verktøy for å hente ut og sjekke referanser kan bli lagt til, konfigurert og slettet. Kontakt redaksjonslederen for mer informasjon.</p></li>
-		<li><p><strong>Navigere grensesnittet</strong></p>
-		<p>Du bytter mellom <strong>Introduksjon</strong>, <strong>Rediger referanser</strong> og <strong>Eksporter referanser</strong> ved å klikke på fanetitlene. For å utvide grensesnittet for referansene, klikk på <strong>Fullskjerm</strong>. For å gå tilbake til normalt grensesnitt fra det utvidede grensesnittet, klikk <strong>Fullskjerm av </strong>. For å fjerne denne introduksjonsfanen, klikk på knappen under.</p></li>
-		<li><p><strong>Be om referanser</strong></p>
-		<p>Dersom redaksjonslederen har aktivert assistenten, vil forfatterne bli bedt om en referanseliste i forbindelse med innleveringen av artikkelen. Disse referansene vil bli bedt om i et separat dokument. Forfatterne kan endre referansen etter at den er levert inn, ved å redigere i metadataene til innleveringen. Merk at dette vil overskrive ev. modifiseringer du har gjort i referansene når du har brukt dette verktøyet.</p></li>
-		<li><p><strong>Redigere referanser</strong></p>
-		<p>Referansemarkeringshjelperen vil forsøke å identifisere og hente ut individuelle referanser fra referanselisten. Du kan systematisk sjekke hver enkelt forsøk på å hente ut en referanse mot flere eksterne databaser; redigere ukorrekt eller legge til ny informasjon; godkjenne eller slette referanser; og legge til nye referanser.</p>
-		<p>Alle endelige referanser til en innlevering må bli godkjent før de kan bli eksportert.</p></li>
-		<li><p><strong>Eksportere referanser</strong></p>
- 		<p>Referanser kan bli eksporter som XML eller tekst. Valgmuligheter for XML-eksport inkluderer <a href="http://dtd.nlm.nih.gov/publishing/">NLM Journal Publishing</a> 2.3 and 3.0 <a href="http://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/tags.html#el-reflist">ref-list XML</a>. Velger du en av disse, produseres en XML-kodet snutt av referanselisten som kan bli kopiert og limt inn i et NLM XML-oppsett.</p>
-		<p>Muligheter for teksteksport inkluderer referansestilene ABNT, APA, MLA og Vancouver. Disse alternativene lager en eksporttekst som kan bli kopiert og limt inn i et tekstbasert artikkeloppsett. (f.eks. Microsoft Word, OpenOffice, Adobe InDesign). Hver enkelt referanse inkluderer en lenke som automatisk søker etter referansen i Google Scholar.</p></li>
+		<li>
+			<p><strong>Konfigurering</strong></p>
+			<p>Referansemarkeringshjelpen er konfigurert av redaksjonslederen av tidsskriftet <a href="{$citationSetupUrl}">Tidsskriftsoppsett Trinn 3.7: Referansemarkeringshjelper</a>. Andre verktøy for å hente ut og sjekke referanser kan bli lagt til, konfigurert og slettet. Kontakt redaksjonslederen for mer informasjon.</p>
+		</li>
+		<li>
+			<p><strong>Navigere grensesnittet</strong></p>
+			<p>Du bytter mellom <strong>Introduksjon</strong>, <strong>Rediger referanser</strong> og <strong>Eksporter referanser</strong> ved å klikke på fanetitlene. For å utvide grensesnittet for referansene, klikk på <strong>Fullskjerm</strong>. For å gå tilbake til normalt grensesnitt fra det utvidede grensesnittet, klikk <strong>Fullskjerm av </strong>. For å fjerne denne introduksjonsfanen, klikk på knappen under.</p>
+		</li>
+		<li>
+			<p><strong>Be om referanser</strong></p>
+			<p>Dersom redaksjonslederen har aktivert assistenten, vil forfatterne bli bedt om en referanseliste i forbindelse med innleveringen av artikkelen. Disse referansene vil bli bedt om i et separat dokument. Forfatterne kan endre referansen etter at den er levert inn, ved å redigere i metadataene til innleveringen. Merk at dette vil overskrive ev. modifiseringer du har gjort i referansene når du har brukt dette verktøyet.</p>
+		</li>
+		<li>
+			<p><strong>Redigere referanser</strong></p>
+			<p>Referansemarkeringshjelperen vil forsøke å identifisere og hente ut individuelle referanser fra referanselisten. Du kan systematisk sjekke hver enkelt forsøk på å hente ut en referanse mot flere eksterne databaser; redigere ukorrekt eller legge til ny informasjon; godkjenne eller slette referanser; og legge til nye referanser.</p>
+			<p>Alle endelige referanser til en innlevering må bli godkjent før de kan bli eksportert.</p>
+		</li>
+		<li>
+			<p><strong>Eksportere referanser</strong></p>
+	 		<p>Referanser kan bli eksporter som XML eller tekst. Valgmuligheter for XML-eksport inkluderer <a href="http://dtd.nlm.nih.gov/publishing/">NLM Journal Publishing</a> 2.3 and 3.0 <a href="http://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/tags.html#el-reflist">ref-list XML</a>. Velger du en av disse, produseres en XML-kodet snutt av referanselisten som kan bli kopiert og limt inn i et NLM XML-oppsett.</p>
+			<p>Muligheter for teksteksport inkluderer referansestilene ABNT, APA, MLA og Vancouver. Disse alternativene lager en eksporttekst som kan bli kopiert og limt inn i et tekstbasert artikkeloppsett. (f.eks. Microsoft Word, OpenOffice, Adobe InDesign). Hver enkelt referanse inkluderer en lenke som automatisk søker etter referansen i Google Scholar.</p>
+		</li>
 	</ul>]]></message>
         <message key="submission.citations.editor.loadMessage">Vent mens referansemarkeringshjelperen lastes opp</message>
         <message key="submission.citations.editor.pleaseImportCitationsFirst"><![CDATA[<p>Det er ingen referanser i artikkelen.</p><p>  Gå til artikkelens <a href="{$articleMetadataUrl}">metadataside</a> og legg inn en referanseliste eller legg inn referanser manuelt ved å bruke knappen for å legge til.]]></message>
@@ -512,6 +522,7 @@
         <message key="submission.query.new">{$creatorName} har startet en ny diskusjon: {$noteTitle}: {$noteContents}</message>
         <message key="submission.query.new.contents">Du har blitt lagt til diskusjonen «{$queryTitle}» om innleveringen «{$submissionTitle}».</message>
         <message key="submission.query.noParticipantOptions">Du må legge til minst en deltaker til denne innleveringen før du kan sette i gang en diskusjon</message>
+        <message key="submission.query.participantTitle">{$fullName}, {$userGroup}</message>
         <message key="submission.query.replies">Svar</message>
         <message key="submission.query.subject">Tema</message>
         <message key="submission.queryNoteFiles">Diskusjonsfiler</message>
