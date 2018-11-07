@@ -1034,6 +1034,7 @@ Forfattere som publiserer med dette tidsskriftet går med på følgende vilkår:
 	<message key="user.profile.profileImage">Profilbilde</message>
 	<message key="user.reviewerPrompt">Er du villig til å være fagfelle for dette tidsskriftet?</message>
 	<message key="user.reviewerPrompt.userGroup">Ja, be om en rolle i {$userGroup}</message>
+	<message key="user.reviewerPrompt.optin">Ja, jeg vil gjerne kontaktes angående forespørsler om fagfellevurdering av manuskript til dette tidsskriftet.</message>
 	<message key="user.register.contextsPrompt">Hvilke tidsskrift på dette nettstedet vil du registere deg hos?</message>
 	<message key="user.register.otherContextRoles">Be om følgende roller</message>
 	<message key="user.register.noContextReviewerInterests">Dersom du er bedt om å være fagfelle for et tidsskrift, oppgi de faglige interessene dine her</message>
