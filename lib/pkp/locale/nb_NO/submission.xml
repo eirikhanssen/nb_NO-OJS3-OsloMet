@@ -568,6 +568,8 @@
         <message key="submission.submissionReview">Sjekk innlevering</message>
         <message key="submission.submissionTitle">Tittel på innlevering:</message>
         <message key="submission.submit.addAuthor">Legg til bidragsyter</message>
+	<message key="submission.submit.contactConsent">Kontaktperson</message>
+	<message key="submission.submit.contactConsentDescription">Ja, jag vil gjerne bli kontaktet om spørsmål angående dette manuskriptet.</message>
         <message key="submission.submit.contributorRole">Bidragsyterens rolle</message>
         <message key="submission.submit.copyrightNoticeAgree">Jeg samtykker i vilkårene i «Erklæring om opphavsrett»</message>
         <message key="submission.submit.copyrightNoticeAgreementLabel">Bekreft «Erklæring om opphavsrett»</message>
