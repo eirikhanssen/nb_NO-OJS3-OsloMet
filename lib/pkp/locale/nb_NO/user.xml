@@ -64,6 +64,8 @@
 	<message key="user.profile.form.oldPasswordInvalid">Det nåværende passordet du skrev inn er ikke riktig</message>
 	<message key="user.profile.form.openAccessNotifications">Få e-postvarsel når ny utgave har fått åpen tilgang</message>
 	<message key="user.profile.form.passwordRequired">Du må oppgi et passord</message>
+	<message key="user.profile.form.privacyConsent"><![CDATA[Ja, jeg godtar å få mine data innsamlet og oppbevart i overensstemmelse med vår <a href="{$privacyUrl}" target="_blank">personvererklæring</a>.]]></message>
+	<message key="user.profile.form.privacyConsentRequired">Du må godta betingelsene i personvernerklæringen.</message>
 	<message key="user.profile.form.profileImage">Profilbilde</message>
 	<message key="user.profile.form.publishedNotifications">Få e-postvarsel når ny utgave er publisert</message>
 	<message key="user.profile.form.urlInvalid">Den oppgitte URLen er ikke gyldig. Kontroller URLen, og prøv igjen. (Tips: kanskje det hjelper å føye til http:// først i URLen)</message>
@@ -75,6 +77,7 @@
 	<message key="user.profile.publicProfile">Brukerprofil</message>
 	<message key="user.profile.repeatNewPassword">Gjenta nytt passord</message>
 	<message key="user.register.completeForm">Fyll ut dette skjemaet for å registrere deg hos tidsskriftet</message>
+        <message key="user.register.form.emailConsent">Ja, jag ønsker å bli kontaktet med information om nya publiseringer og meldinger.</message>
 	<message key="user.register.form.emailExists">E-postadressen brukes av en annen bruker</message>
 	<message key="user.register.form.passwordsDoNotMatch">Passordene samsvarte ikke</message>
 	<message key="user.register.form.usernameAlphaNumeric">Brukernavnet kan bare inneholde små bokstaver, tall, understrek og bindestrek. Dessuten må det begynne og slutte med en bokstav eller et tall.</message>
