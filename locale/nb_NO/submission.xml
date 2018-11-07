@@ -34,6 +34,7 @@
 	<message key="submission.event.articleGalleyMadeAvailable">Artikkeloppsettet «{$galleyFormatName}» er gjort tilgjengelig</message>
 	<message key="submission.event.articleGalleyMadeUnavailable">Artikkeloppsettet «{$galleyFormatName}» er utilgjenglig</message>
 	<message key="submission.event.publicIdentifiers">Den offentlige identifikatoren til innleveringen er oppdatert</message>
+	<message key="submission.abstract.wordCount.description">Sammendraget kan ikke være lengre enn {$wordCount} ord.</message>
 	<message key="grid.issueEntry.availableGalley.title">Godkjenn format</message>
 	<message key="grid.issueEntry.availableGalley.removeMessage"><![CDATA[<p>Dette oppsettet vil <em>ikke lenger være tilgjengelig</em> for leserne.</p>]]></message>
 	<message key="grid.issueEntry.availableGalley.message"><![CDATA[<p>Dette oppsettet vil <em>bli gjort tilgjengelig</em> for leserne.</p>]]></message>
