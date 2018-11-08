@@ -148,6 +148,8 @@
 	<message key="manager.setup.loggingAndAuditing">Logging og kontrollering</message>
 	<message key="manager.setup.pageHeaderLogoImageInvalid">Ugyldig bildeformat. Aksepterte format: .gif, .jpg eller .png.</message>
 	<message key="manager.setup.selectOne">Velg en</message>
+	<message key="manager.setup.searchEngineIndexing.sitemap">Sitemap</message>
+	<message key="manager.setup.searchEngineIndexing.sitemapDescription"><![CDATA[XML-sitemap er tilgjengelig for innsending til søkemotorer på <a href="{$path}" target="_blank">{$path}</a>]]></message>
 	<message key="manager.statistics">Statistikk og rapporter</message>
 	<message key="manager.statistics.statistics.count.value">{$count} ({$percentage} %)</message>
 	<message key="manager.statistics.statistics.totalNewValue">{$numTotal} ({$numNew} nye)</message>
