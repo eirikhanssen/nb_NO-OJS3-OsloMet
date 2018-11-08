@@ -114,6 +114,7 @@
 	<message key="user.authorization.accessDenied">Ingen tilgang</message>
 	<message key="user.authorization.restrictedSiteAccess">Du har blitt nektet tilgang. Tilgang til denne siden er på nåværende tidspunkt begrenset.</message>
 	<message key="user.gossip">Private notater</message>
+	<message key="user.gossip.description">Notater om denne fagfellen som kun er synlige for administratorer, redaksjonsleder og redaktører. Notatene blir synlig for fremtidige fagfellevurderingsoppdrag.</message>
 	<message key="user.profile.form.usergroupRequired">Du må oppgi en brukergruppe</message>
 	<message key="user.authorization.privateOperation">Operasjonen du prøvde å få tilgang til er enten privat eller eksisterer ikke</message>
 	<message key="user.profile.form.countryRequired">Du må oppgi et land</message>
