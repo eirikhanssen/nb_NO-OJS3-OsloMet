@@ -163,4 +163,5 @@
 	<message key="user.apiKey.generate">Generer ny API-nøkkel</message>
 	<message key="user.apiKey.generateWarning">Genererer du en ny API-nøkkel, vil det gjøre brukerens eksisterende nøkler ugyldige</message>
 	<message key="user.apiKey.secretRequired">Før du genererer en ny API-nøkkel, må nettstedsadministratoren legge inn en hemmelighet i konfigureringsfilen («api_key_secret»)</message>
+	<message key="user.privacyLink"><![CDATA[Dine opplysninger blir lagret i henhold til vår <a href="{$privacyUrl}" target="_blank">personvernerklæring</a>.]]></message>
 </locale>
