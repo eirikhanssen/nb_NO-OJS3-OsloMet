@@ -1154,7 +1154,7 @@ Oppretting av CLOCKSS' støtte for Open Journal Systems trenger ikke skje før e
 	<message key="payment.requestPublicationFee">Be om publiseringsgebyr ({$feeAmount})</message>
 	<message key="payment.notFound">En betaling har blitt forespurt, men forespørselen har gått ut. Kontakt tidsskriftsadministratoren for detaljer.</message>
 	<message key="log.editor.recommendation">En redaksjonell anbefaling ({$decision}) for artikkelen {$submissionId} ble registrert av {$editorName}</message>
-	<message key="notification.type.public">Kunngjøringer</message>
+	<message key="notification.type.public">Varslinger</message>
 	<message key="notification.type.publicationScheduled">Denne innleveringen har blitt planlagt for publisering</message>
 	<message key="navigation.subscriptions">Abonnementer</message>
 </locale>
