@@ -428,6 +428,7 @@
 	<message key="settings.libraryFiles.category.permissions">Tillatelser</message>
 	<message key="settings.libraryFiles.category.reports">Rapporter</message>
 	<message key="settings.libraryFiles.category.other">Andre</message>
+	<message key="settings.libraryFiles.public.selectLibraryFiles">Velg bibliotekfiler som skal vedlegges</message>
 	<message key="grid.action.addGenre">Legg til et komponent</message>
 	<message key="grid.action.editGenre">Rediger komponent</message>
 	<message key="grid.action.deleteGenre">Slett komponenten</message>
