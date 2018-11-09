@@ -470,7 +470,7 @@
 	<message key="submission.list.itemsOfTotal">{$count} av {$total} innleveringer</message>
 	<message key="submission.list.responseDue">Svarfrist</message>
 	<message key="submission.list.reviewDue">Frist for fagfellevurdering</message>
-	<message key="submission.list.reviewerWorkflowLink"><![CDATA[Du er tildelt en redaksjonell rolle for denne innsendingen. Ønsker du tilgang til <a href="{$urlEditorialWorkflow}">redaksjonell arbeidsflyt</a>?]]></message>	
+	<message key="submission.list.reviewerWorkflowLink"><![CDATA[Du er tildelt en redaksjonell rolle for denne innsendingen.<br/> Ønsker du tilgang til <a href="{$urlEditorialWorkflow}">redaksjonell arbeidsflyt</a>?]]></message>	
 	<message key="submission.list.reviewComplete">Fagfellevurdering fullført</message>
         <message key="submission.list.reviewsCompleted">Fagfellevurderinger fullført</message>
         <message key="submission.list.revisionsSubmitted">Revideringer innlevert</message>
