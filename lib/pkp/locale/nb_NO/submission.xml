@@ -463,14 +463,16 @@
         <message key="submission.list.filter">Filtre</message>
         <message key="submission.list.filterRemove">Tøm filteret: {$filterTitle}</message>
         <message key="submission.list.galleysCreated">Produksjonsoppsett laget</message>
-        <message key="submission.list.incompleteSubmissionNotice">Denne innleveringen må fullføres før en redaktør vil vurdere den</message>
-        <message key="submission.list.infoCenter">Aktivitetslogg og -notater</message>
-        <message key="submission.list.itemOrdererDown">Flytt ned {$itemTitle}</message>
-        <message key="submission.list.itemOrdererUp">Flytt opp {$itemTitle}</message>
-        <message key="submission.list.itemsOfTotal">{$count} av {$total} innleveringer</message>
-        <message key="submission.list.responseDue">Svarfrist</message>
-        <message key="submission.list.reviewDue">Frist for fagfellevurdering</message>
-        <message key="submission.list.reviewsCompleted">Fagfellevurdering fullført</message>
+	<message key="submission.list.incompleteSubmissionNotice">Denne innleveringen må fullføres før en redaktør vil vurdere den</message>
+	<message key="submission.list.infoCenter">Aktivitetslogg og -notater</message>
+	<message key="submission.list.itemOrdererDown">Flytt ned {$itemTitle}</message>
+	<message key="submission.list.itemOrdererUp">Flytt opp {$itemTitle}</message>
+	<message key="submission.list.itemsOfTotal">{$count} av {$total} innleveringer</message>
+	<message key="submission.list.responseDue">Svarfrist</message>
+	<message key="submission.list.reviewDue">Frist for fagfellevurdering</message>
+	<message key="submission.list.reviewerWorkflowLink"><![CDATA[Du er tildelt en redaksjonell rolle for denne innsendingen. Ønsker du tilgang til <a href="{$urlEditorialWorkflow}">redaksjonell arbeidsflyt</a>?]]></message>	
+	<message key="submission.list.reviewComplete">Fagfellevurdering fullført</message>
+        <message key="submission.list.reviewsCompleted">Fagfellevurderinger fullført</message>
         <message key="submission.list.revisionsSubmitted">Revideringer innlevert</message>
         <message key="submission.list.viewSubmission">Se innlevering</message>
         <message key="submission.loadMessage">Vent mens filen lastes opp til serveren.</message>
