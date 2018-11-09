@@ -458,7 +458,7 @@
         <message key="submission.list.copyeditsSubmitted">Språkvaskede filer innlevert</message>
         <message key="submission.list.count">{$count} innleveringer</message>
         <message key="submission.list.discussions">Åpne diskusjoner</message>
-	<message key="submission.list.dualWorkflowLinks"><![CDATA[Du er tildelt flere roller for denne inndsendingen. Ønsker du tilgang til <a href="{$urlAuthorWorkflow}">forfatter-arbeidsflyt</a>  eller <a href="{$urlEditorialWorkflow}">redaksjonell-arbeidsflyt</a>?]]></message>
+	<message key="submission.list.dualWorkflowLinks"><![CDATA[Du er tildelt flere roller for denne inndsendingen.<br/> Ønsker du tilgang til <a href="{$urlAuthorWorkflow}">forfatter-arbeidsflyt</a>  eller <a href="{$urlEditorialWorkflow}">redaksjonell-arbeidsflyt</a>?]]></message>
         <message key="submission.list.filesPrepared">Filer forberedt</message>
         <message key="submission.list.filter">Filtre</message>
         <message key="submission.list.filterRemove">Tøm filteret: {$filterTitle}</message>
