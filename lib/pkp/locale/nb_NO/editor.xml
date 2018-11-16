@@ -59,6 +59,7 @@
         <message key="editor.review.reviewDue">Frist for fagfellevurdering: {$date}</message>
         <message key="editor.review.reviewDueDate">Frist for fagfellevurdering</message>
         <message key="editor.review.reviewerComments">Fagfellens kommentarer</message>
+	<message key="editor.review.reviewerRating.none">Ingen vurdering</message>
         <message key="editor.review.reviewsAdded">Fagfellevurdering lagt til beskjed</message>
         <message key="editor.review.reviewSubmitted">Fagfellevurdering levert inn</message>
         <message key="editor.review.sendReminder">Send påminnelse</message>
