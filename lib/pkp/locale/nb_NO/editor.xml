@@ -42,6 +42,8 @@
         <message key="editor.review.notInitiated">Fagfelleurderingen har ikke startet</message>
         <message key="editor.review.personalMessageToAuthor">E-post til forfatteren</message>
         <message key="editor.review.personalMessageToReviewer">E-post til fagfellen</message>
+	<message key="editor.review.rateReviewer">Vurdering av fagfelle</message>
+	<message key="editor.review.rateReviewer.description">Intern vurdering av kvaliteten på fagfellevurderingen. Denne vurderingen blir ikke delt med fagfellen.</message>
         <message key="editor.review.readConfirmation">Klikk «Bekreft» etter at du har lest fagfellevurderingen slik at prosessen kan fortsette. Dersom fagfellen har levert inn vurderingen et annet sted, kan du laste opp filen under og så klikk «Bekreft» for å fortsette.</message>
         <message key="editor.review.readNewReview">Les ny fagfellevurdering</message>
         <message key="editor.review.readReview">Les fagfellevurdering</message>
