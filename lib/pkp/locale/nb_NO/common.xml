@@ -403,6 +403,7 @@
 	<message key="notification.type.roundStatusTitle">Status for vurderingsrunde {$round}</message>
 	<message key="notification.type.assignCopyeditors">Oppnevn en språkvasker ved å klikke på lenken «Oppnevn», som du finner ved listen over deltakere</message>
 	<message key="notification.type.awaitingCopyedits">Avventer språkvask</message>
+	<message key="notification.type.reviewAssignmentUpdated">Fagfellevurdering oppdatert</message>
 	<message key="user.authorization.submissionAuthor">Du er ikke forfatteren av denne teksten. Sjekk om du er logget inn med riktig brukernavn og passord.</message>
 	<message key="notification.type.queryActivity">Diskusjoner i gang</message>
 	<message key="notification.type.queryAdded">Diskusjon lagt til</message>
