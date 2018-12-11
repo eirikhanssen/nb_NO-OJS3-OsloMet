@@ -131,6 +131,7 @@
 	<message key="reviewer.list.activeReviews">{$count} aktive</message>
 	<message key="reviewer.list.activeReviewsDescription">Aktive, pågående fagfellevurderingsoppdrag</message>
 	<message key="reviewer.list.averageCompletion">Gjennomsnittlig tid brukt på fagfellevurderingsoppdrag</message>
+	<message key="reviewer.list.biography">Biografi</message>
 	<message key="reviewer.list.completedReviews">Fullførte fagfellevurderingsoppdrag</message>
 	<message key="reviewer.list.currentlyAssigned">Denne fagfellen har allerede fått i oppgave å vurdere denne innleveringen.</message>
 	<message key="reviewer.list.daysSinceLastAssignment">{$days} dager siden</message>
