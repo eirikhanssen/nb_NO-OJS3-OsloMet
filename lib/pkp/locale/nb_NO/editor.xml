@@ -128,9 +128,14 @@
         <message key="editor.submissionReview.sendEmail.editors">Send en beskjed via e-post til redaktøren(e): {$editorNames}</message>
 	<message key="editor.submissionReview.skipEmail">Ikke send e-post til forfatter</message>
 	<message key="grid.action.editQuery">Rediger diskusjonen</message>
+	<message key="reviewer.list.activeReviews">{$count} aktive</message>
+	<message key="reviewer.list.activeReviewsDescription">Aktive, pågående fagfellevurderingsoppdrag</message>
+	<message key="reviewer.list.averageCompletion">Gjennomsnittlig tid brukt på fagfellevurderingsoppdrag</message>
+	<message key="reviewer.list.completedReviews">Fullførte fagfellevurderingsoppdrag</message>
 	<message key="reviewer.list.currentlyAssigned">Denne fagfellen har allerede fått i oppgave å vurdere denne innleveringen.</message>
 	<message key="reviewer.list.daysSinceLastAssignment">{$days} dager siden</message>
-	<message key="reviewer.list.daysSinceLastAssignmentDescription">Dager siden tildeling av forrige vurderingsoppdrag</message>
+	<message key="reviewer.list.daysSinceLastAssignmentDescription">Dager siden tildeling av forrige fagfellevurderingsoppdrag</message>
+	<message key="reviewer.list.declinedReviews">Avviste fagfellevurderingsoppdrag</message>
 	<message key="reviewer.list.itemsOfTotal">{$count} av {$total} fagfeller</message>
 	<message key="reviewer.list.warnOnAssign">Denne fagfellen er låst fordi vedkommende har en rolle som gir tilgang til å se forfatterens identitet. Anonym fagfellevurdering kan ikke garanteres. Vil du allikevel låse opp for denne fagfellen?</message>
 	<message key="reviewer.list.warnOnAssignUnlock">Lås opp</message>
