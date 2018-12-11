@@ -27,7 +27,7 @@
         <message key="editor.submission.allRecommendations.display">Anbefalinger: {$recommendations}</message>
         <message key="editor.submission.changeRecommendation">Endre anbefalingen</message>
         <message key="editor.submission.decision">Avgjørelse</message>
-        <message key="editor.submission.decision.accept">Send til språkvask</message>
+        <message key="editor.submission.decision.accept">Godkjenn innlevering</message>
         <message key="editor.submission.decision.approveProofs">Godkjenn sistekorrektur</message>
         <message key="editor.submission.decision.approveProofsDescription">Filen med sistekorrektur må bli krysset av som godkjent for å bli tilgjengelig. Vil du godkjenne den?</message>
         <message key="editor.submission.decision.decline">Avvis innlevering</message>
