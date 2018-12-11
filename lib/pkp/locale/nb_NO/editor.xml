@@ -137,6 +137,7 @@
 	<message key="reviewer.list.daysSinceLastAssignmentDescription">Dager siden tildeling av forrige fagfellevurderingsoppdrag</message>
 	<message key="reviewer.list.declinedReviews">Avviste fagfellevurderingsoppdrag</message>
 	<message key="reviewer.list.itemsOfTotal">{$count} av {$total} fagfeller</message>
+	<message key="reviewer.list.neverAssigned">Aldri tildelt fagfellevurderingsoppdrag</message>
 	<message key="reviewer.list.warnOnAssign">Denne fagfellen er låst fordi vedkommende har en rolle som gir tilgang til å se forfatterens identitet. Anonym fagfellevurdering kan ikke garanteres. Vil du allikevel låse opp for denne fagfellen?</message>
 	<message key="reviewer.list.warnOnAssignUnlock">Lås opp</message>
 	<message key="submission.queries.attachedFiles">Legg ved filer</message>
