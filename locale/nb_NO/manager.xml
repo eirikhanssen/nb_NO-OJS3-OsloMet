@@ -98,6 +98,8 @@
 	<message key="manager.setup.disciplineExamples">(For eksempel historie, utdanningsvitenskap, sosiologi, psykologi, kulturstudier, statsvitenskap)</message>
 	<message key="manager.setup.disciplineProvideExamples">Gi eksempler på relevante fagfelt for dette tidsskriftet</message>
 	<message key="manager.setup.displayCurrentIssue">Legg til innholdsfortegnelsen for den nyeste utgaven (hvis tilgjengelig)</message>
+	<message key="manager.setup.editorialTeam">Redaksjon</message>
+	<message key="manager.setup.editorialTeam.description">Liste over redaktører og andre nøkkelpersoner tilknyttet tidsskriftet</message>
 	<message key="manager.setup.emailBounceAddress">Feilmeldingsadresse</message>
 	<message key="manager.setup.emailBounceAddressDescription">Alle e-poster som ikke kan leveres, vil utløse en feilmelding som sendes til denne adressen.</message>
 	<message key="manager.setup.emailBounceAddressDisabled"><![CDATA[<strong>Merk:</strong> Nettstedsadministratoren må aktivere denne valgmuligheten om den skal brukes. <tt>allow_envelope_sender</tt>  i konfigurasjonsfilen til OJS. Annen serverkonfigurasjon kan være nødvendig for å støtte denne funksjonen (som likevel kan være umulig å bruke på enkelte servere), som oppgitt i OJS-dokumentasjonen.]]></message>
