@@ -571,6 +571,7 @@
         <message key="submission.submissionReview">Sjekk innlevering</message>
         <message key="submission.submissionTitle">Tittel på innlevering:</message>
         <message key="submission.submit.addAuthor">Legg til bidragsyter</message>
+	<message key="submission.submit.availableUserGroups">Send inn som</message>
 	<message key="submission.submit.availableUserGroupsDescription">Velg rollen som best beskriver bidraget ditt til denne innsendingen.</message>
 	<message key="submission.submit.contactConsent">Kontaktperson</message>
 	<message key="submission.submit.contactConsentDescription">Ja, jag vil gjerne bli kontaktet om spørsmål angående dette manuskriptet.</message>
