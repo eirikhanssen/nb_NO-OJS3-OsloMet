@@ -571,6 +571,7 @@
         <message key="submission.submissionReview">Sjekk innlevering</message>
         <message key="submission.submissionTitle">Tittel på innlevering:</message>
         <message key="submission.submit.addAuthor">Legg til bidragsyter</message>
+	<message key="submission.submit.availableUserGroupsDescription">Velg rollen som best beskriver bidraget ditt til denne innsendingen.</message>
 	<message key="submission.submit.contactConsent">Kontaktperson</message>
 	<message key="submission.submit.contactConsentDescription">Ja, jag vil gjerne bli kontaktet om spørsmål angående dette manuskriptet.</message>
         <message key="submission.submit.contributorRole">Bidragsyterens rolle</message>
@@ -600,6 +601,7 @@
         <message key="submission.submit.submissionLocaleDescription">Utgiveren godtar innleveringer på flere språk. Velg språk i rullegardinmenyen over.</message>
         <message key="submission.submit.uploadStep">Last opp filen</message>
         <message key="submission.submit.uploadSubmissionFile">Last opp</message>
+	<message key="submission.submit.userGroupDescriptionManagers">Send inn med en av de følgende rollene hvis du selv ønsker å kunne redigere og publisere denne innsendingen: {$managerGroups}</message>
         <message key="submission.submit.whatNext">Hva skjer videre?</message>
         <message key="submission.submit.whatNext.create">opprette ny innlevering</message>
         <message key="submission.submit.whatNext.forNow">Foreløpig kan du:</message>
