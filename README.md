@@ -18,19 +18,20 @@ Change the date timestamp if you wish.
 tar -cvzf nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ./lib ./locale ./plugins --exclude='./lib/pkp/dtd' 
 ```
 
-### Optional: move it out of the git repo (to the parent folder of the git repo).**
+### Optional: move it out of the git repo (to the parent folder of the git repo).
 Change the date timestamp if you wish.
 ```
 mv nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ..
 ```
 
-### Change directory into the OJS3 installation root, the same folder where **config.inc.php is located****
+### Change directory into the OJS3 installation root, the same folder where **config.inc.php is located**
 ```
 cd path/to/ojs3-installation-dir
 ```
 
-### Overwrite the locale files in the OJS3 installation dir with the files from this repository
+### Overwrite nb_NO locale files in the OJS3 installation dir with the files from this repository
 To overwrite the nb_NO locale files with the ones in this package, extract the files to the OJS3 installation root. 
+
 **Note:** this will overwrite nb_NO locale xml files in **lib**, **locale** and **plugins** sub-folders:
 
 ```
