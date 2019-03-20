@@ -32,7 +32,9 @@ cd path/to/ojs3-installation-dir
 ### Overwrite nb_NO locale files in the OJS3 installation dir with the files from this repository
 To overwrite the nb_NO locale files with the ones in this package, extract the files to the OJS3 installation root. 
 
-**Note:** this will overwrite nb_NO locale xml files in **lib**, **locale** and **plugins** sub-folders:
+**Note:** This will overwrite nb_NO locale xml files in **lib**, **locale** and **plugins** sub-folders:
+
+**Note:** Make sure you are in the right folder when you perform this command. See the previous step. 
 
 ```
 tar -xvzf path/to/nb_NO-OJS3-OsloMet-2018-08-29.tar.gz
