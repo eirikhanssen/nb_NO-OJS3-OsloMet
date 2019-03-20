@@ -12,14 +12,15 @@ Clone the github repo and move into the folder:
 git clone https://github.com/eirikhanssen/nb_NO-OJS3-OsloMet.git
 cd nb_NO-OJS3-OsloMet
 ```
-1) Create a tar.gz archive and 2) (optional) move it out of the git repo.
+1. Create a tar.gz archive with all the local files and 2. (optional) move it out of the git repo (to the parent folder of the git repo).
 Change the date timestamp if you wish.
 ```
-tar -cvzf nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ./lib ./locale ./plugins --exclude='./lib/pkp/dtd' && mv nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ..
+1. tar -cvzf nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ./lib ./locale ./plugins --exclude='./lib/pkp/dtd' 
+2. mv nb_NO-OJS3-OsloMet-2018-08-29.tar.gz ..
 ```
 Change directory into the OJS3 installation root, the same folder where **config.inc.php is located**
 ```
-cd path/to/ojs3/installation-dir
+cd path/to/ojs3-installation-dir
 ```
 To overwrite the nb_NO locale files with the ones in this package, extract the files to the OJS3 installation root. 
 Note: this will overwrite nb_NO locale xml files in **lib**, **locale** and **plugins** sub-folders:
