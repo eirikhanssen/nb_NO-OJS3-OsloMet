@@ -55,8 +55,22 @@
 	<message key="common.captchaField.badCaptcha">Tegnene du skrev inn stemte ikke overens med tegnene i bildet. Prøv en gang til.</message>
 	<message key="common.captchaField.description">Skriv inn tegnene du ser i bildet ovenfor</message>
 	<message key="common.captchaField">Validering</message>
+	<message key="common.ccLicense"><![CDATA[<br /><br />
+		<a target="_blank" rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+			<img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by/3.0/80x15.png"/>
+		</a>
+		<br/>
+		Dette verket er lisensiert med en <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0-lisens</a>.]]></message>
+	<message key="common.ccLicense.rt"><![CDATA[<div class="rtBlock">
+		<br />
+		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+		<br />
+		Dette verket er lisensiert med en <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0-lisens</a>.
+	</div>]]></message>
 	<message key="common.changesSaved">Endringene dine ble lagret</message>
 	<message key="common.chooseOne">Velg en</message>
+	<message key="common.clearSearch">Nullstill søk</message>
+	
 	<message key="common.close">Lukk</message>
 	<message key="common.closeWindow">Lukk vindu</message>
 	<message key="common.complete">Fullført</message>
@@ -66,6 +80,7 @@
 	<message key="common.create">Opprett</message>
 	<message key="common.dateCompleted">Utført dato</message>
 	<message key="common.date">Dato</message>
+	<message key="common.dateDecided">Beslutningsdato</message>
 	<message key="common.dateModified">Endret dato</message>
 	<message key="common.dateRequested">Forespurt dato</message>
 	<message key="common.dateSubmitted">Innsendingsdato</message>
@@ -183,6 +198,7 @@
 	<message key="email.compose">Send e-post</message>
 	<message key="email.compose.tooManyRecipients">E-posten du forsøker å sende har for mange mottakere</message>
 	<message key="email.compose.tooSoon">Det er for kort tid siden du sendte den forrige meldingen din. Vent litt før du prøver å sende en til.</message>
+	<message key="email.compose.error">Sending av epost feilet. Prøv igjen senere eller kontakt systemadministratoren.</message>
 	<message key="email.email">E-post</message>
 	<message key="email.from">Fra</message>
 	<message key="email.invalid">E-postadressen {$email} er ugyldig</message>
@@ -275,18 +291,6 @@
 	<message key="notification.notification">Varsling</message>
 	<message key="notification.notifications">Varslinger</message>
 	<message key="notification.notificationsNew">({$numNew} nye)</message>
-	<message key="common.ccLicense"><![CDATA[<br /><br />
-		<a target="_blank" rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-			<img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by/3.0/80x15.png"/>
-		</a>
-		<br/>
-		Dette verket er lisensiert med en <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0-lisens</a>.]]></message>
-	<message key="common.ccLicense.rt"><![CDATA[<div class="rtBlock">
-		<br />
-		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by/3.0/80x15.png" /></a>
-		<br />
-		Dette verket er lisensiert med en <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0-lisens</a>.
-	</div>]]></message>
 	<message key="common.re">Ad:</message>
 	<message key="common.false">Feil</message>
 	<message key="common.manage">Administrer</message>
@@ -338,10 +342,20 @@
 	<message key="common.finish">Avslutt</message>
 	<message key="common.go">Fortsett</message>
 	<message key="common.less">Mindre</message>
+	<message key="common.lessThan">{$value} eller mindre</message>
+        <message key="common.commaListSeparator">, </message>
+	<message key="common.semicolonListSeparator">; </message>
+
 	<message key="common.billingAddress">Fakturaadresse (om annen)</message>
 	<message key="common.more">Mer</message>
+	<message key="common.moreThan">{$value} eller mer</message>
 	<message key="common.noMatches">Ingen treff</message>
 	<message key="common.overdue">Forfalt</message>
+	<message key="common.pagination">{$start}-{$end} av {$total}</message>
+	<message key="common.pagination.label">Vis flere sider</message>
+	<message key="common.pagination.goToPage">Gå til {$page}</message>
+	<message key="common.pagination.next">Neste side</message>
+	<message key="common.pagination.previous">Forrige side</message>
 	<message key="common.reminder">Påminnelse</message>
 	<message key="common.signoff">Logg ut</message>
 	<message key="common.unread">Ulest</message>
@@ -458,6 +472,7 @@
 	<message key="grid.action.markRead">Merk lest</message>
 	<message key="dashboard.tasks">Oppgaver</message>
 	<message key="dashboard.myQueue">Mine oppgaver</message>
+	<message key="common.publicAccess">Synlig for alle</message>
 	<message key="common.publicKnowledgeProject">Public Knowledge Project</message>
 	<message key="common.available">Tilgjengelig</message>
 	<message key="common.homepageNavigationLabel">Hjem</message>
@@ -477,10 +492,14 @@
 	<message key="informationCenter.history.noItems">Ingen aktiviteter er loggført</message>
 	<message key="informationCenter.history.notePosted">La ut nye notater</message>
 	<message key="informationCenter.history.messageSent">Varsel sendt til brukere</message>
+
 	<message key="stageParticipants.history.messageSent">Varsel sendt til brukere</message>
+	<message key="stageParticipants.notify.startDiscussion">Start diskusjon</message>
+	<message key="stageParticipants.notify.startDiscussion.description">Start en diskusjon mellom deg og {$userFullName}.</message>
 	<message key="stageParticipants.notify.chooseMessage">Velg en e-postmal, eller fyll ut skjemaet under</message>
 	<message key="stageParticipants.notify.message">Beskjed</message>
 	<message key="stageParticipants.notify.warning">Pass på at du har fylt ut feltet under og at du har valgt minst en mottaker</message>
+
 	<message key="navigation.breadcrumbLabel">Du er her:</message>
 	<message key="navigation.breadcrumbSeparator">/</message>
 	<message key="navigation.tools">Verktøy</message>
@@ -565,4 +584,7 @@
 	<message key="notification.addedNavigationMenu">Navigasjonsmenyen ble lagt til</message>
 	<message key="notification.editedNavigationMenu">Navigasjonsmenyen ble oppdatert</message>
 	<message key="notification.removedNavigationMenu">Navigasjonsmenyen ble fjernet</message>
+
+	<message key="list.viewMore">Vis ekstra detaljer om {$name}</message>
+	<message key="list.viewLess">Skjul ekstra detaljer om {$name}</message>
 </locale>
